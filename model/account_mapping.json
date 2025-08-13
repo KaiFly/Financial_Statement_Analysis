@@ -1,0 +1,710 @@
+{
+    "A- TÀI SẢN NGẮN HẠN": {
+        "english": "A- Current assets",
+        "english_format": "total_asset_st"
+    },
+    "I. Tiền và các khoản tương đương tiền": {
+        "english": "I. Cash and cash equivalents",
+        "english_format": "cash_and_cash_eq"
+    },
+    "1. Tiền": {
+        "english": "1. Cash",
+        "english_format": "cash"
+    },
+    "2. Các khoản tương đương tiền": {
+        "english": "2. Cash equivalents",
+        "english_format": "cash_eq"
+    },
+    "II. Các khoản đầu tư tài chính ngắn hạn": {
+        "english": "II. Short-term financial investments",
+        "english_format": "fin_inv_st"
+    },
+    "1. Chứng khoán kinh doanh": {
+        "english": "1. Trading securities",
+        "english_format": "trd_sec"
+    },
+    "2. Dự phòng giảm giá chứng khoán kinh doanh": {
+        "english": "2. Allowance for diminution in the value of trading securities",
+        "english_format": "allow_dimin_trd_sec"
+    },
+    "3. Đầu tư nắm giữ đến ngày đáo hạn": {
+        "english": "3. Held-to-maturity investments",
+        "english_format": "htm_inv_st"
+    },
+    "III. Các khoản phải thu ngắn hạn": {
+        "english": "III. Accounts receivable - short-term",
+        "english_format": "ar_st"
+    },
+    "1. Phải thu ngắn hạn của khách hàng": {
+        "english": "1. Accounts receivable from customers",
+        "english_format": "ar_cust_st"
+    },
+    "2. Trả trước cho người bán ngắn hạn": {
+        "english": "2. Prepayments to suppliers",
+        "english_format": "prepay_sup_st"
+    },
+    "3. Phải thu nội bộ ngắn hạn": {
+        "english": "3. Short-term intra-group receivables",
+        "english_format": "intragroup_rec_st"
+    },
+    "4. Phải thu theo tiến độ kế hoạch hợp đồng xây dựng": {
+        "english": "4. Receivables under construction contracts",
+        "english_format": "rec_construction_contract"
+    },
+    "5. Phải thu về cho vay ngắn hạn": {
+        "english": "5. Short-term loans receivable",
+        "english_format": "loans_rec_st"
+    },
+    "6. Phải thu ngắn hạn khác": {
+        "english": "6. Other short-term receivables",
+        "english_format": "other_rec_st"
+    },
+    "7. Dự phòng phải thu ngắn hạn khó đòi": {
+        "english": "7. Allowance for doubtful debts",
+        "english_format": "allow_doubt_debt_st"
+    },
+    "8. Tài sản Thiếu chờ xử lý": {
+        "english": "8. Assets awaiting resolution",
+        "english_format": "asset_pending"
+    },
+    "IV. Hàng tồn kho": {
+        "english": "IV. Inventories",
+        "english_format": "inventories"
+    },
+    "1. Hàng tồn kho": {
+        "english": "1. Inventories",
+        "english_format": "inventories"
+    },
+    "2. Dự phòng giảm giá hàng tồn kho": {
+        "english": "2. Allowance for inventories",
+        "english_format": "allow_inventories"
+    },
+    "V.Tài sản ngắn hạn khác": {
+        "english": "V. Other current assets",
+        "english_format": "other_assets_st"
+    },
+    "1. Chi phí trả trước ngắn hạn": {
+        "english": "1. Short-term prepaid expenses",
+        "english_format": "prepaid_exp_st"
+    },
+    "2. Thuế GTGT được khấu trừ": {
+        "english": "2. Deductible value added tax",
+        "english_format": "ded_vat"
+    },
+    "3. Thuế và các khoản khác phải thu Nhà nước": {
+        "english": "3. Taxes receivable from State Treasury",
+        "english_format": "tax_rec_st"
+    },
+    "4. Giao dịch mua bán lại trái phiếu Chính phủ": {
+        "english": "4. Government bond repurchase agreements",
+        "english_format": "gov_bond_repo_assets"
+    },
+    "5. Tài sản ngắn hạn khác": {
+        "english": "5. Other current assets",
+        "english_format": "other_assets_st"
+    },
+    "B. TÀI SẢN DÀI HẠN": {
+        "english": "B. Long-term assets",
+        "english_format": "total_assets_lt"
+    },
+    "I. Các khoản phải thu dài hạn": {
+        "english": "I. Accounts receivable - long-term",
+        "english_format": "ar_lt"
+    },
+    "1. Phải thu dài hạn của khách hàng": {
+        "english": "1. Accounts receivable from customers",
+        "english_format": "ar_cust_lt"
+    },
+    "2. Trả trước cho người bán dài hạn": {
+        "english": "2. Long-term prepayments to suppliers",
+        "english_format": "prepay_sup_lt"
+    },
+    "3. Vốn kinh doanh ở đơn vị trực thuộc": {
+        "english": "3. Capital at subsidiaries",
+        "english_format": "cap_at_subs"
+    },
+    "4. Phải thu nội bộ dài hạn": {
+        "english": "4. Long-term intra-group receivables",
+        "english_format": "intragroup_rec_lt"
+    },
+    "5. Phải thu về cho vay dài hạn": {
+        "english": "5. Long-term loans receivable",
+        "english_format": "loans_rec_lt"
+    },
+    "6. Phải thu dài hạn khác": {
+        "english": "6. Other long-term receivables",
+        "english_format": "other_rec_lt"
+    },
+    "7. Dự phòng phải thu dài hạn khó đòi": {
+        "english": "7. Allowance for long-term doubtful debts",
+        "english_format": "allow_doubt_debt_lt"
+    },
+    "II.Tài sản cố định": {
+        "english": "II. Fixed assets",
+        "english_format": "fixed_assets"
+    },
+    "1. Tài sản cố định hữu hình": {
+        "english": "1. Tangible fixed assets",
+        "english_format": "tan_fixed_assets"
+    },
+    "- Nguyên giá": {
+        "english": "- Cost",
+        "english_format": "inv_property_cost"
+    },
+    "- Giá trị hao mòn lũy kế": {
+        "english": "- Accumulated depreciation",
+        "english_format": "accum_dep_inv_property"
+    },
+    "2. Tài sản cố định thuê tài chính": {
+        "english": "2. Finance lease fixed assets",
+        "english_format": "fin_lease_fixed_assets"
+    },
+    "3. Tài sản cố định vô hình": {
+        "english": "3. Intangible fixed assets",
+        "english_format": "intan_fixed_assets"
+    },
+    "III. Bất động sản đầu tư": {
+        "english": "III. Investment property",
+        "english_format": "inv_property"
+    },
+    "IV. Tài sản dở dang dài hạn": {
+        "english": "IV. Long-term work in progress",
+        "english_format": "work_in_progress_long_term"
+    },
+    "1. Chi phí sản xuất, kinh doanh dở dang dài hạn": {
+        "english": "1. Long-term work in progress",
+        "english_format": "wip_lt"
+    },
+    "2. Chi phí xây dựng cơ bản dở dang": {
+        "english": "2. Construction in progress",
+        "english_format": "const_in_progress"
+    },
+    "V. Đầu tư tài chính dài hạn": {
+        "english": "V. Long-term financial investments",
+        "english_format": "fin_inv_lt"
+    },
+    "1. Đầu tư vào công ty con": {
+        "english": "1. Investments in subsidiaries",
+        "english_format": "inv_in_subs"
+    },
+    "2. Đầu tư vào công ty liên kết, liên doanh": {
+        "english": "2. Investments in associates, joint venture",
+        "english_format": "inv_assoc_jv"
+    },
+    "3. Đầu tư góp vốn vào đơn vị khác": {
+        "english": "3. Equity investments in other entities",
+        "english_format": "equity_inv_other_entities"
+    },
+    "4. Dự phòng đầu tư tài chính dài hạn": {
+        "english": "4. Allowance for diminution in the value of long-term financial investments",
+        "english_format": "allow_dimin_fin_inv_lt"
+    },
+    "5. Đầu tư nắm giữ đến ngày đáo hạn": {
+        "english": "5. Held-to-maturity investments",
+        "english_format": "htm_inv_lt"
+    },
+    "VI. Tài sản dài hạn khác": {
+        "english": "VI. Other non-current assets",
+        "english_format": "total_other_assets_lt"
+    },
+    "1. Chi phí trả trước dài hạn": {
+        "english": "1. Long-term prepaid expenses",
+        "english_format": "prepaid_exp_lt"
+    },
+    "2. Tài sản thuế thu nhập hoãn lại": {
+        "english": "2. Deferred tax assets",
+        "english_format": "deferred_tax_assets"
+    },
+    "3. Thiết bị, vật tư, phụ tùng thay thế dài hạn": {
+        "english": "3. Long-term equipment, materials, and spare parts",
+        "english_format": "equipment_materials_spares_lt"
+    },
+    "4. Tài sản dài hạn khác": {
+        "english": "4. Other long-term assets",
+        "english_format": "other_assets_lt"
+    },
+    "5. Lợi thế thương mại": {
+        "english": "5. Goodwill",
+        "english_format": "goodwill"
+    },
+    "TỔNG CỘNG TÀI SẢN": {
+        "english": "TOTAL ASSETS",
+        "english_format": "total_assets"
+    },
+    "NGUỒN VỐN": {
+        "english": "RESOURCES",
+        "english_format": NaN
+    },
+    "C. NỢ PHẢI TRẢ": {
+        "english": "C. LIABILITIES",
+        "english_format": "total_liabilities"
+    },
+    "I. Nợ ngắn hạn": {
+        "english": "I. Current liabilities",
+        "english_format": "liabilities_st"
+    },
+    "1. Phải trả người bán ngắn hạn": {
+        "english": "1. Accounts payable to suppliers",
+        "english_format": "ap_sup_st"
+    },
+    "2. Người mua trả tiền trước ngắn hạn": {
+        "english": "2. Advances from customers",
+        "english_format": "adv_cust_st"
+    },
+    "3. Thuế và các khoản phải nộp nhà nước": {
+        "english": "3. Taxes payable to State Treasury",
+        "english_format": "tax_payable"
+    },
+    "4. Phải trả người lao động": {
+        "english": "4. Payables to employees",
+        "english_format": "emp_payables"
+    },
+    "5. Chi phí phải trả ngắn hạn": {
+        "english": "5. Accrued expenses",
+        "english_format": "accrued_exp_st"
+    },
+    "6. Phải trả nội bộ ngắn hạn": {
+        "english": "6. Short-term intra-group payables",
+        "english_format": "intragroup_payables_st"
+    },
+    "7. Phải trả theo tiến độ kế hoạch hợp đồng xây dựng": {
+        "english": "7. Payables under construction contracts",
+        "english_format": "payables_construction_contract"
+    },
+    "8. Doanh thu chưa thực hiện ngắn hạn": {
+        "english": "8. Short-term unearned revenue",
+        "english_format": "unearned_rev_st"
+    },
+    "9. Phải trả ngắn hạn khác": {
+        "english": "9. Other short-term payables",
+        "english_format": "other_payables_st"
+    },
+    "10. Vay và nợ thuê tài chính ngắn hạn": {
+        "english": "10. Short-term borrowings",
+        "english_format": "debt_st"
+    },
+    "11. Dự phòng phải trả ngắn hạn": {
+        "english": "11. Short-term provisions",
+        "english_format": "provisions_st"
+    },
+    "12. Quỹ khen thưởng phúc lợi": {
+        "english": "12. Bonus and welfare fund",
+        "english_format": "bonus_welfare_fund"
+    },
+    "13. Quỹ bình ổn giá": {
+        "english": "13. Price stabilization fund",
+        "english_format": "price_stab_fund"
+    },
+    "14. Giao dịch mua bán lại trái phiếu Chính phủ": {
+        "english": "14. Government bond repurchase agreements",
+        "english_format": "gov_bond_repo_liabilities"
+    },
+    "II. Nợ dài hạn": {
+        "english": "II. Long-term liabilities",
+        "english_format": "liabilities_lt"
+    },
+    "1. Phải trả người bán dài hạn": {
+        "english": "1. Long-term accounts payable to suppliers",
+        "english_format": "ap_sup_lt"
+    },
+    "2. Người mua trả tiền trước dài hạn": {
+        "english": "2. Long-term advances from customers",
+        "english_format": "adv_cust_lt"
+    },
+    "3. Chi phí phải trả dài hạn": {
+        "english": "3. Long-term accrued expenses",
+        "english_format": "accrued_exp_lt"
+    },
+    "4. Phải trả nội bộ về vốn kinh doanh": {
+        "english": "4. Intra-group payables on capital",
+        "english_format": "intragroup_payables_capital"
+    },
+    "5. Phải trả nội bộ dài hạn": {
+        "english": "5. Long-term intra-group payables",
+        "english_format": "intragroup_payables_lt"
+    },
+    "6. Doanh thu chưa thực hiện dài hạn": {
+        "english": "6. Long-term unearned revenue",
+        "english_format": "unearned_rev_lt"
+    },
+    "7. Phải trả dài hạn khác": {
+        "english": "7. Other long-term payables",
+        "english_format": "other_payables_lt"
+    },
+    "8. Vay và nợ thuê tài chính dài hạn": {
+        "english": "8. Long-term borrowings",
+        "english_format": "debt_lt"
+    },
+    "9. Trái phiếu chuyển đổi": {
+        "english": "9. Convertible bonds",
+        "english_format": "conv_bonds"
+    },
+    "10. Cổ phiếu ưu đãi": {
+        "english": "10. Preference shares",
+        "english_format": "pref_shares"
+    },
+    "11. Thuế thu nhập hoãn lại phải trả": {
+        "english": "11. Deferred tax liabilities",
+        "english_format": "def_tax_liab"
+    },
+    "12. Dự phòng phải trả dài hạn": {
+        "english": "12. Long-term provisions",
+        "english_format": "provisions_lt"
+    },
+    "13. Quỹ phát triển khoa học và công nghệ": {
+        "english": "13. Science and technology development fund",
+        "english_format": "sci_tech_dev_fund"
+    },
+    "D.VỐN CHỦ SỞ HỮU": {
+        "english": "D. EQUITY",
+        "english_format": "total_equity"
+    },
+    "I. Vốn chủ sở hữu": {
+        "english": "I. Owners' equity",
+        "english_format": "owners_equity"
+    },
+    "1. Vốn góp của chủ sở hữu": {
+        "english": "1. Share capital",
+        "english_format": "share_capital"
+    },
+    "- Cổ phiếu phổ thông có quyền biểu quyết": {
+        "english": "- Ordinary shares with voting rights",
+        "english_format": "ord_shares_voting"
+    },
+    "- Cổ phiếu ưu đãi": {
+        "english": "- Preference shares",
+        "english_format": "pref_shares"
+    },
+    "2. Thặng dư vốn cổ phần": {
+        "english": "2. Share premium",
+        "english_format": "share_premium"
+    },
+    "3. Quyền chọn chuyển đổi trái phiếu": {
+        "english": "3. Option for convertible bonds",
+        "english_format": "option_conv_bonds"
+    },
+    "4. Vốn khác của chủ sở hữu": {
+        "english": "4. Other capital",
+        "english_format": "other_capital"
+    },
+    "5. Cổ phiếu quỹ": {
+        "english": "5. Treasury shares",
+        "english_format": "treasury_share"
+    },
+    "6. Chênh lệch đánh giá lại tài sản": {
+        "english": "6. Differences upon revaluation of assets",
+        "english_format": "diff_reval_asset"
+    },
+    "7. Chênh lệch tỷ giá hối đoái": {
+        "english": "7. Foreign exchange differences",
+        "english_format": "forex_diff"
+    },
+    "8. Quỹ đầu tư phát triển": {
+        "english": "8. Investment and development fund",
+        "english_format": "inv_dev_fund"
+    },
+    "9. Quỹ hỗ trợ sắp xếp doanh nghiệp": {
+        "english": "9. Business rearrangement support fund",
+        "english_format": "biz_rearr_support_fund"
+    },
+    "10. Quỹ khác thuộc vốn chủ sở hữu": {
+        "english": "10. Other funds from owners' equity",
+        "english_format": "other_equity_fund"
+    },
+    "11. Lợi nhuận sau thuế chưa phân phối": {
+        "english": "11. Retained profits",
+        "english_format": "ret_profit"
+    },
+    "- LNST chưa phân phối lũy kế đến cuối kỳ trước": {
+        "english": "- Retained profits brought forward",
+        "english_format": "ret_profits_bf"
+    },
+    "- LNST chưa phân phối kỳ này": {
+        "english": "- Retained profit for the current year",
+        "english_format": "ret_profit_cy"
+    },
+    "12. Nguồn vốn đầu tư XDCB": {
+        "english": "12. Capital source for construction",
+        "english_format": "construction_capital"
+    },
+    "13. Lợi ích cổ đông không kiểm soát": {
+        "english": "13. Non-controlling interest",
+        "english_format": "nci"
+    },
+    "II. Nguồn kinh phí và quỹ khác": {
+        "english": "II. Other funds and budgets",
+        "english_format": "other_fund_budg"
+    },
+    "1. Nguồn kinh phí": {
+        "english": "1. Budgets",
+        "english_format": "budg"
+    },
+    "2. Nguồn kinh phí đã hình thành TSCĐ": {
+        "english": "2. Budgets used to form fixed assets",
+        "english_format": "budg_fixed_asset"
+    },
+    "TỔNG CỘNG NGUỒN VỐN": {
+        "english": "TOTAL RESOURCES",
+        "english_format": "total_resources"
+    },
+    "1. Doanh thu bán hàng và cung cấp dịch vụ": {
+        "english": "1. Revenue from sales of goods and provision of services",
+        "english_format": "rev"
+    },
+    "2. Các khoản giảm trừ doanh thu": {
+        "english": "2. Revenue deductions",
+        "english_format": "rev_deductions"
+    },
+    "3. Doanh thu thuần về bán hàng và cung cấp dịch vụ (10 = 01 - 02)": {
+        "english": "3. Net revenue from sales of goods and provision of services (10 = 01 - 02)",
+        "english_format": "net_rev"
+    },
+    "4. Giá vốn hàng bán": {
+        "english": "4. Cost of sales",
+        "english_format": "cost_of_sales"
+    },
+    "5. Lợi nhuận gộp về bán hàng và cung cấp dịch vụ(20=10-11)": {
+        "english": "5. Gross profit (20 = 10 - 11)",
+        "english_format": "gross_profit"
+    },
+    "6. Doanh thu hoạt động tài chính": {
+        "english": "6. Financial income",
+        "english_format": "fin_income"
+    },
+    "7. Chi phí tài chính": {
+        "english": "7. Financial expenses",
+        "english_format": "fin_exp"
+    },
+    "- Trong đó: Chi phí lãi vay": {
+        "english": "- In which: Interest expense",
+        "english_format": "interest_expense "
+    },
+    "8. Phần lãi lỗ trong công ty liên doanh, liên kết": {
+        "english": "8. Share of profit/(loss) in associates, joint venture",
+        "english_format": "profit_loss_assoc_jv"
+    },
+    "9. Chi phí bán hàng": {
+        "english": "9. Selling expenses",
+        "english_format": "selling_exp"
+    },
+    "10. Chi phí quản lý doanh nghiệp": {
+        "english": "10. General and administration expenses",
+        "english_format": "admin_exp"
+    },
+    "11. Lợi nhuận thuần từ hoạt động kinh doanh{30=20+(21-22) + 24 - (25+26)}": {
+        "english": "11. Net operating profit {30 = 20 + (21 - 22) + 24 - (25 + 26)}",
+        "english_format": "net_operating_profit"
+    },
+    "12. Thu nhập khác": {
+        "english": "12. Other income",
+        "english_format": "other_income"
+    },
+    "13. Chi phí khác": {
+        "english": "13. Other expenses",
+        "english_format": "other_exp"
+    },
+    "14. Lợi nhuận khác(40=31-32)": {
+        "english": "14. Results of other activities (40 = 31 - 32)",
+        "english_format": "other_profit"
+    },
+    "15. Tổng lợi nhuận kế toán trước thuế(50=30+40)": {
+        "english": "15. Accounting profit before tax (50 = 30 + 40)",
+        "english_format": "profit_before_tax"
+    },
+    "16. Chi phí thuế TNDN hiện hành": {
+        "english": "16. Income tax expense - current",
+        "english_format": "tax_exp"
+    },
+    "17. Chi phí thuế TNDN hoãn lại": {
+        "english": "17. Income tax (benefit)/expense - deferred",
+        "english_format": "tax_deferred"
+    },
+    "18. Lợi nhuận sau thuế thu nhập doanh nghiệp(60=50-51-52)": {
+        "english": "18. Net profit after tax (60 = 50 - 51 - 52)",
+        "english_format": "net_profit"
+    },
+    "19. Lợi nhuận sau thuế công ty mẹ": {
+        "english": "19. Net profit attributable to Equity holders of the Company",
+        "english_format": "net_profit_to_parent_shareholders"
+    },
+    "20. Lợi nhuận sau thuế công ty mẹ không kiểm soát": {
+        "english": "20. Net profit attributable to Non-controlling interest",
+        "english_format": "net_profit_nci"
+    },
+    "21. Lãi cơ bản trên cổ phiếu(*)": {
+        "english": "21. Basic earnings per share (*)",
+        "english_format": "basic_eps"
+    },
+    "22. Lãi suy giảm trên cổ phiếu (*)": {
+        "english": "22. Diluted earnings per share (*)",
+        "english_format": "diluted_eps"
+    },
+    "I. Lưu chuyển tiền từ hoạt động kinh doanh": {
+        "english": "I. CASH FLOWS FROM OPERATING ACTIVITIES",
+        "english_format": "operating_cash_flows"
+    },
+    "1. Lợi nhuận trước thuế": {
+        "english": "1. Accounting profit before tax",
+        "english_format": "profit_before_tax"
+    },
+    "2. Điều chỉnh cho các khoản": {
+        "english": "2. Adjustments for:",
+        "english_format": NaN
+    },
+    "- Khấu hao TSCĐ và BĐSĐT": {
+        "english": "- Depreciation and amortisation",
+        "english_format": "adj_dep_amor"
+    },
+    "- Các khoản dự phòng": {
+        "english": "- Allowances and provisions",
+        "english_format": "adj_allow_provisions"
+    },
+    "- Lãi, lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục tiền tệ có gốc ngoại tệ": {
+        "english": "- Exchange (gains)/losses arising from revaluation of monetary items denominated in foreign currencies",
+        "english_format": "adj_exchange_gains_losses_forex"
+    },
+    "- Lãi, lỗ từ hoạt động đầu tư": {
+        "english": "- gains/losses from other investment activities",
+        "english_format": "adj_other_inv_gains_losses"
+    },
+    "- Chi phí lãi vay": {
+        "english": "- Interest expense",
+        "english_format": "adj_interest_exp"
+    },
+    "- Các khoản điều chỉnh khác": {
+        "english": "- Other adjustments",
+        "english_format": "adj_other_adjustments"
+    },
+    "3. Lợi nhuận từ hoạt động kinh doanh trước thay đổi vốn lưu động": {
+        "english": "3. Operating profit before changes in working capital",
+        "english_format": "operating_profit_before_wc_changes"
+    },
+    "- Tăng, giảm các khoản phải thu": {
+        "english": "- Change in receivables",
+        "english_format": "change_in_rec"
+    },
+    "- Tăng, giảm hàng tồn kho": {
+        "english": "- Change in inventories",
+        "english_format": "change_in_inventories"
+    },
+    "- Tăng, giảm các khoản phải trả (Không kể lãi vay phải trả, thuế thu nhập doanh nghiệp phải nộp)": {
+        "english": "- Change in payables and other liabilities",
+        "english_format": "change_payables_other_liabilities"
+    },
+    "- Tăng, giảm chi phí trả trước": {
+        "english": "- Change in prepaid expenses",
+        "english_format": "change_in_prepaid_exp"
+    },
+    "- Tăng, giảm chứng khoán kinh doanh": {
+        "english": "- Change in trading securities",
+        "english_format": "change_in_trd_sec"
+    },
+    "- Tiền lãi vay đã trả": {
+        "english": "- Interest paid",
+        "english_format": "interest_paid"
+    },
+    "- Thuế thu nhập doanh nghiệp đã nộp": {
+        "english": "- Income tax paid",
+        "english_format": "tax_paid"
+    },
+    "- Tiền thu khác từ hoạt động kinh doanh": {
+        "english": "- Other receipts from operating activities",
+        "english_format": "other_receipts_operating"
+    },
+    "- Tiền chi khác cho hoạt động kinh doanh": {
+        "english": "- Other payments for operating activities",
+        "english_format": "payments_other_operating"
+    },
+    "Lưu chuyển tiền thuần từ hoạt động kinh doanh": {
+        "english": "Net cash flows from operating activities",
+        "english_format": "net_operating_cash_flows"
+    },
+    "II. Lưu chuyển tiền từ hoạt động đầu tư": {
+        "english": "II. CASH FLOWS FROM INVESTING ACTIVITIES",
+        "english_format": "inv_cash_flows"
+    },
+    "1.Tiền chi để mua sắm, xây dựng TSCĐ và các tài sản dài hạn khác": {
+        "english": "1. Payments for additions to fixed assets and other long-term assets",
+        "english_format": "payments_capital_expenditures"
+    },
+    "2.Tiền thu từ thanh lý, nhượng bán TSCĐ và các tài sản dài hạn khác": {
+        "english": "2. Receipts from disposals of fixed assets and construction in progress",
+        "english_format": "receipts_disposals_fixed_assets_cip"
+    },
+    "3.Tiền chi cho vay, mua các công cụ nợ của đơn vị khác": {
+        "english": "3. Payments for loans and debt instruments of other entities",
+        "english_format": "payments_loans_debt_instruments"
+    },
+    "4.Tiền thu hồi cho vay, bán lại các công cụ nợ của đơn vị khác": {
+        "english": "4. Collections on loans and sales of debt instruments of other entities",
+        "english_format": "collections_loans_debt_instruments"
+    },
+    "5.Tiền chi đầu tư góp vốn vào đơn vị khác": {
+        "english": "5. Payments for investments in other entities",
+        "english_format": "payments_inv_other_entities"
+    },
+    "6.Tiền thu hồi đầu tư góp vốn vào đơn vị khác": {
+        "english": "6. Collections on investments in other entities",
+        "english_format": "collections_inv_other_entities"
+    },
+    "7.Tiền thu lãi cho vay, cổ tức và lợi nhuận được chia": {
+        "english": "7. Receipts of interest and dividends",
+        "english_format": "receipts_interest_dividends"
+    },
+    "Lưu chuyển tiền thuần từ hoạt động đầu tư": {
+        "english": "Net cash flows from investing activities",
+        "english_format": "net_inv_cash_flows"
+    },
+    "III. Lưu chuyển tiền từ hoạt động tài chính": {
+        "english": "III. CASH FLOWS FROM FINANCING ACTIVITIES",
+        "english_format": "fin_cash_flows"
+    },
+    "1.Tiền thu từ phát hành cổ phiếu, nhận vốn góp của chủ sở hữu": {
+        "english": "1. Proceeds from issuing shares and capital contributions",
+        "english_format": "proceeds_issuing_shares_capital"
+    },
+    "2.Tiền trả lại vón góp cho các chủ sở hữu, mua lại cổ phiếu của doanh nghiệp đã phát hành": {
+        "english": "2. Payments for capital return to owners, repurchase of own shares",
+        "english_format": "payments_capital_return_repurchase"
+    },
+    "3.Tiền thu từ đi vay": {
+        "english": "3. Proceeds from borrowings",
+        "english_format": "proceeds_borrowings"
+    },
+    "4.Tiền chi trả nợ gốc vay": {
+        "english": "4. Payments to settle loan principals",
+        "english_format": "payments_settle_loan"
+    },
+    "5.Tiền chi trả nợ gốc thuê tài chính": {
+        "english": "5. Payments of principal for finance leases",
+        "english_format": "payments_principal_fin_lease"
+    },
+    "6. Cổ tức, lợi nhuận đã trả cho chủ sở hữu": {
+        "english": "6. Payments of dividends",
+        "english_format": "payments_dividends"
+    },
+    "7. Tiền thu từ vốn góp của cổ đông không kiểm soát": {
+        "english": "7. Proceeds from capital contribution by non-controlling interest to a subsidiary",
+        "english_format": "proceeds_capital_nci_sub"
+    },
+    "Lưu chuyển tiền thuần từ hoạt động tài chính": {
+        "english": "Net cash flows from financing activities",
+        "english_format": "net_fin_cash_flows"
+    },
+    "Lưu chuyển tiền thuần trong kỳ (50 = 20+30+40)": {
+        "english": "Net cash flows during the year (50 = 20 + 30 + 40)",
+        "english_format": "net_cash_flows"
+    },
+    "Tiền và tương đương tiền đầu kỳ": {
+        "english": "Cash and cash equivalents at the beginning of the year",
+        "english_format": "cash_and_cash_eq_begin_year"
+    },
+    "Ảnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ": {
+        "english": "Effect of exchange rate fluctuations on cash and cash equivalents",
+        "english_format": "effect_exchange_rate"
+    },
+    "Tiền và tương đương tiền cuối kỳ (70 = 50+60+61)": {
+        "english": "Cash and cash equivalents at the end of the year (70 = 50 + 60 + 61)",
+        "english_format": "cash_and_cash_eq_end_year"
+    }
+}

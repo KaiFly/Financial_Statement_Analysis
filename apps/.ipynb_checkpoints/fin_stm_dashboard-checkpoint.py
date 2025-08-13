@@ -1,265 +1,420 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 from io import BytesIO
+import os
 
 # --------------------------------------------------------------------------
 # Cấu hình trang (Page Configuration)
 # --------------------------------------------------------------------------
 # Thiết lập cấu hình cho trang Streamlit, sử dụng layout rộng để có không gian hiển thị tốt hơn.
 st.set_page_config(
-    page_title="Bảng điều khiển Phân tích Tài chính",
+    page_title="ValuX Team | Financial Statement Data",
     page_icon="📊",
     layout="wide"
 )
+st.sidebar.page_link("fin_stm_dashboard.py", label="📃 Financial Statement Data")
+st.sidebar.page_link("pages/1_Financial_Term_Adjustment.py", label="➡️ Financial Term Format")
 
 # --------------------------------------------------------------------------
-# Hàm tải và xử lý dữ liệu (Data Loading and Processing Function)
+# CSS Tùy chỉnh (Custom CSS Injection)
 # --------------------------------------------------------------------------
+# Thêm CSS để thu nhỏ giao diện và cải thiện thẩm mỹ
+st.markdown("""
+    <style>
+        /* Đặt kích thước phông chữ cơ bản cho toàn bộ ứng dụng là 12px */
+        html, body, [class*="st-"] {
+            font-size: 12px;
+        }
+        .st-emotion-cache-16txtl3 { /* Sidebar */
+             background-color: #f8f9fa;
+        }
+        h1 {
+            color: #FFFFFF; /* Dark Blue */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700;
+            font-size: 2.5rem; /* Giữ kích thước tiêu đề chính lớn để dễ đọc */
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+# --------------------------------------------------------------------------
+# Hàm tiện ích (Utility Functions)
+# --------------------------------------------------------------------------
+
 @st.cache_data # Sử dụng cache để tăng tốc độ tải lại ứng dụng
-def load_data(file_path):
-    """
-    Tải dữ liệu từ file CSV, xử lý các kiểu dữ liệu và loại bỏ các dòng không cần thiết.
-    
-    Args:
-        file_path (str): Đường dẫn đến file CSV.
-
-    Returns:
-        pandas.DataFrame: DataFrame đã được xử lý.
-    """
-    try:
-        # Đọc dữ liệu từ file, sử dụng tab làm dấu phân cách
-        df = pd.read_csv(file_path, sep='\t')
-        
-        # Xử lý cột 'value': chuyển đổi sang kiểu số, các giá trị không hợp lệ sẽ thành NaN
-        df['value'] = pd.to_numeric(df['value'], errors='coerce')
-        
-        # Xử lý cột 'report_date': chuyển đổi sang kiểu số nguyên, các giá trị không hợp lệ sẽ thành NaN
-        df['report_date'] = pd.to_numeric(df['report_date'], errors='coerce')
-
-        # Chỉ loại bỏ NaN ở các cột quan trọng cho việc lọc, giữ lại NaN ở cột 'account' để tính toán
-        df.dropna(subset=['report_date', 'exchange', 'industry', 'report_type'], inplace=True)
-
-        # Chuyển đổi 'report_date' sang kiểu integer
-        df['report_date'] = df['report_date'].astype(int)
-        
-        return df
-    except FileNotFoundError:
+def load_parquet_data(file_path):
+    """Tải dữ liệu từ file Parquet."""
+    if not os.path.exists(file_path):
         st.error(f"Lỗi: Không tìm thấy tệp tại đường dẫn '{file_path}'. Vui lòng kiểm tra lại.")
-        return pd.DataFrame() # Trả về DataFrame rỗng nếu có lỗi
+        return pd.DataFrame()
+    try:
+        return pd.read_parquet(file_path)
+    except Exception as e:
+        st.error(f"Lỗi khi đọc file Parquet: {e}")
+        return pd.DataFrame()
 
-# --------------------------------------------------------------------------
-# Hàm chuyển đổi DataFrame sang Excel (DataFrame to Excel Conversion Function)
-# --------------------------------------------------------------------------
 def to_excel(df):
-    """
-    Chuyển đổi một DataFrame sang định dạng file Excel trong bộ nhớ.
-
-    Args:
-        df (pandas.DataFrame): DataFrame cần chuyển đổi.
-
-    Returns:
-        bytes: Dữ liệu file Excel dưới dạng bytes.
-    """
+    """Chuyển đổi DataFrame sang định dạng file Excel trong bộ nhớ."""
     output = BytesIO()
-    # Sử dụng 'with' để đảm bảo writer được đóng đúng cách
     with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
         df.to_excel(writer, index=False, sheet_name='FilteredData')
-    processed_data = output.getvalue()
-    return processed_data
+    return output.getvalue()
 
 # --------------------------------------------------------------------------
+# Tải dữ liệu chính (Data Loading)
+# --------------------------------------------------------------------------
+# Xác định đường dẫn tương đối để ứng dụng linh hoạt hơn
+current_dir = os.path.dirname(os.path.abspath(__file__)) if '__file__' in locals() else '.'
+data_dir = os.path.join(current_dir, 'data')
+
+# Đường dẫn đến các tệp dữ liệu
+file_path = os.path.join(data_dir, 'Financial_Statement__Full_Company_L10Y.parquet')
+file_format_path = os.path.join(data_dir, 'account_mapping.parquet')
+file_company_path = os.path.join(data_dir, 'Vietcap__Company_List.parquet')
+
 # Tải dữ liệu chính
-# --------------------------------------------------------------------------
-# Sử dụng file dữ liệu lớn hơn theo yêu cầu
-file_path = 'data/Financial_Statement__Full_Company_sample.csv' 
-file_format_path = 'data/account_mapping.xlsx'
-file_company_path = 'data/Vietcap__Company_list.xlsx'
-
-# Tải dữ liệu chính từ file parquet
-try:
-    df = pd.read_parquet('data/Financial_Statement__Full_Company_L10Y.parquet')
-    df['report_date'] = df['report_date'].astype(int)
-except FileNotFoundError:
-    df = pd.read_parquet('Financial_Statement__Full_Company_L10Y.parquet')
-    df['report_date'] = df['report_date'].astype(int)
-
-
-# Nếu không tải được dữ liệu, dừng ứng dụng
+df = load_parquet_data(file_path)
 if df.empty:
-    st.stop()
+    # Fallback to root directory if 'data' folder not found
+    file_path = os.path.join(current_dir, 'Financial_Statement__Full_Company_L10Y.parquet')
+    df = load_parquet_data(file_path)
+    if df.empty:
+        st.stop()
+
+df['report_date'] = df['report_date'].astype(int)
 
 # --------------------------------------------------------------------------
-# Giao diện thanh bên (Sidebar Interface) - Đã sắp xếp lại
+# Giao diện thanh bên (Sidebar Interface)
 # --------------------------------------------------------------------------
-st.sidebar.header("Bộ lọc Dữ liệu ⚙️")
+with st.sidebar:
+    st.header("Bộ lọc Dữ liệu ⚙️")
 
-# --- Filter 1: Sàn giao dịch (Exchange) ---
-sorted_exchanges = sorted(df['exchange'].unique())
-selected_exchanges = st.sidebar.multiselect(
-    'Sàn giao dịch (Exchange)',
-    options=sorted_exchanges,
-    default=sorted_exchanges
-)
+    # --- Filter 1: Sàn giao dịch (Exchange) ---
+    sorted_exchanges = sorted(df['exchange'].unique())
+    selected_exchanges = st.multiselect(
+        'Sàn giao dịch (Exchange)',
+        options=sorted_exchanges,
+        default=sorted_exchanges
+    )
 
-# --- Filter 2: Loại báo cáo (Report Type) ---
-report_types = ['Tất cả'] + sorted(df['report_type'].unique())
-selected_report_type = st.sidebar.selectbox(
-    'Loại báo cáo (Report Type)',
-    options=report_types
-)
+    # --- Filter 2: Loại báo cáo (Report Type) ---
+    report_types = ['Tất cả'] + sorted(df['report_type'].unique())
+    selected_report_type = st.selectbox(
+        'Loại báo cáo (Report Type)',
+        options=report_types
+    )
 
-# --- Filter 3: Năm báo cáo (Report Date) ---
-min_year, max_year = int(df['report_date'].min()), int(df['report_date'].max())
-selected_year_range = st.sidebar.slider(
-    'Năm báo cáo (Report Year)',
-    min_value=min_year,
-    max_value=max_year,
-    value=(min_year, max_year)
-)
+    # --- Filter 3: Năm báo cáo (Report Date) ---
+    min_year, max_year = int(df['report_date'].min()), int(df['report_date'].max() - 1)
+    selected_year_range = st.slider(
+        'Năm báo cáo (Report Year)',
+        min_value=min_year,
+        max_value=max_year,
+        value=(min_year, max_year)
+    )
 
-# --- Filter 4: Ngành (Industry) ---
-sorted_industries = sorted(df['industry'].unique())
-selected_industries = st.sidebar.multiselect(
-    'Ngành (Industry)',
-    options=sorted_industries,
-    default=sorted_industries
-)
+    # --- Filter 4: Ngành (Industry) ---
+    sorted_industries = sorted(df['industry'].unique())
+    selected_industries = st.multiselect(
+        'Ngành (Industry)',
+        options=sorted_industries,
+        default=sorted_industries
+    )
+    # --- Filter 5: Stock (Company_code) ---
+    sorted_company = sorted(df['company_code'].unique())
+    selected_company = st.multiselect(
+        'Mã Chứng Khoán (Company Code) ',
+        options=sorted_company,
+        default=[] # Mặc định không chọn mã nào
+    )
+    
+    st.divider()
+    
+    # --- Tùy chỉnh màu sắc cho biểu đồ ---
+    # st.header("Tùy chỉnh Biểu đồ 🎨")
+    # # Đặt màu mặc định ở định dạng HEX để tương thích với st.color_picker
+    default_color1 = "#66c5cc" # Tương đương màu pastel của Plotly
+    default_color2 = "#f68e66" # Tương đương màu pastel của Plotly
+    color1 = default_color1
+    color2 = default_color2
+    # color1 = st.color_picker('Màu cho "Số lượng công ty"', default_color1)
+    # color2 = st.color_picker('Màu cho "Số lượng chỉ số"', default_color2)
 
 # --------------------------------------------------------------------------
-# Lọc dữ liệu dựa trên lựa chọn của người dùng (Data Filtering)
+# Lọc dữ liệu (Data Filtering)
 # --------------------------------------------------------------------------
-# Bắt đầu với một bản sao của DataFrame gốc để tránh thay đổi dữ liệu gốc
-df_filtered = df.copy()
-
-# Áp dụng các bộ lọc
+# Sử dụng .query() để lọc dữ liệu một cách gọn gàng
+query_parts = []
 if selected_exchanges:
-    df_filtered = df_filtered[df_filtered['exchange'].isin(selected_exchanges)]
+    query_parts.append('exchange in @selected_exchanges')
 if selected_report_type != 'Tất cả':
-    df_filtered = df_filtered[df_filtered['report_type'] == selected_report_type]
-df_filtered = df_filtered[
-    (df_filtered['report_date'] >= selected_year_range[0]) & 
-    (df_filtered['report_date'] <= selected_year_range[1])
-]
+    query_parts.append('report_type == @selected_report_type')
 if selected_industries:
-    df_filtered = df_filtered[df_filtered['industry'].isin(selected_industries)]
+    query_parts.append('industry in @selected_industries')
+if selected_company:
+    query_parts.append('company_code in @selected_company')
 
+query_parts.append('report_date >= @selected_year_range[0]')
+query_parts.append('report_date <= @selected_year_range[1]')
+
+df_filtered = df.query(' and '.join(query_parts))
 
 # --------------------------------------------------------------------------
 # Giao diện chính (Main Interface)
 # --------------------------------------------------------------------------
-st.title("📊 Bảng điều khiển Báo cáo Tài chính - ValuX Team")
+st.title("📊 Dữ liệu Báo cáo Tài chính - ValuX Team")
 st.markdown("---")
 
-# Tải và hiển thị nút download cho các file mapping
-try:
-    df_account = pd.read_excel(file_format_path)
-    mapping_excel_data = to_excel(df_account)
-    st.download_button(
-        label="📥 Tải xuống file Format trường account",
-        data=mapping_excel_data,
-        file_name="ValuX_account_formatting.xlsx",
-        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-    )
-except FileNotFoundError:
-    st.warning(f"Không tìm thấy file '{file_format_path}'. Nút tải xuống file format sẽ bị vô hiệu hóa.")
+# --- Khu vực tải file phụ trợ ---
+with st.container(border=True):
+    st.subheader("I. Tài liệu Crawl & Format")
+    col1, col2 = st.columns(2)
+    with col1:
+        # Tải file mapping trong thư mục data hoặc thư mục gốc
+        df_account = load_parquet_data(file_format_path)
+        if df_account.empty:
+            df_account = load_parquet_data(os.path.join(current_dir, 'account_mapping.parquet'))
+        
+        if not df_account.empty:
+            st.download_button(
+                label="📥 Tải file Format trường account",
+                data=to_excel(df_account),
+                file_name="ValuX_account_formatting.xlsx",
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                use_container_width=True
+            )
+    with col2:
+        df_company = load_parquet_data(file_company_path)
+        if df_company.empty:
+             df_company = load_parquet_data(os.path.join(current_dir, 'Vietcap__Company_List.parquet'))
 
-try:
-    df_company = pd.read_excel(file_company_path)
-    company_excel_data = to_excel(df_company)
-    st.download_button(
-        label="📥 Tải xuống thông tin mã CK",
-        data=company_excel_data,
-        file_name="ValuX_company_list.xlsx",
-        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-    )
-except FileNotFoundError:
-    st.warning(f"Không tìm thấy file '{file_company_path}'. Nút tải xuống thông tin công ty sẽ bị vô hiệu hóa.")
+        if not df_company.empty:
+            st.download_button(
+                label="📥 Tải file thông tin mã CK",
+                data=to_excel(df_company),
+                file_name="ValuX_company_list.xlsx",
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                use_container_width=True
+            )
 
-
-# --- Hiển thị các chỉ số chính (Key Metrics) - Đã cập nhật ---
+st.subheader("II. Chỉ số về Dữ liệu 📇")
 if not df_filtered.empty:
-    # Tính toán các chỉ số mới
-    num_records = len(df_filtered)
-    num_companies = df_filtered['company_code'].nunique()
-    num_accounts = df_filtered['account'].nunique()
-    null_accounts = df_filtered['account'].isnull().sum()
-    null_ratio = (null_accounts / num_records) * 100 if num_records > 0 else 0
+    with st.container(border=True):
+        col_metrics, col_missing_data = st.columns([1, 1])
 
-    # Hiển thị 5 chỉ số trên 5 cột
-    col1, col2, col3, col4, col5 = st.columns(5)
-    col1.metric("Số lượng bản ghi", f"{num_records:,}")
-    col2.metric("Số lượng công ty", f"{num_companies:,}")
-    col3.metric("Số lượng account", f"{num_accounts:,}")
-    col4.metric("Account bị null", f"{null_accounts:,}")
-    col5.metric("Tỉ lệ null (%)", f"{null_ratio:.2f}%")
+        with col_metrics:
+            # Tính toán các chỉ số
+            num_records = len(df_filtered)
+            num_companies = df_filtered['company_code'].nunique()
+            num_accounts = df_filtered['account'].nunique()
+            
+            # Số liệu null cho 'account'
+            null_accounts = df_filtered[df_filtered['account'].isna()].shape[0]
+            null_account_ratio = (null_accounts / num_records) * 100 if num_records > 0 else 0
+            # Số liệu null cho 'value'
+            null_values = df_filtered[df_filtered['value'].isna()].shape[0]
+            null_value_ratio = (null_values / num_records) * 100 if num_records > 0 else 0
+            
+            col_metrics_1, col_metrics_2 = st.columns([1, 1])
+            # Hiển thị các chỉ số
+            with col_metrics_1:
+                st.metric("Số lượng Record", f"{num_records:,}")
+                st.metric("Số lượng Company", f"{num_companies:,}")
+                st.metric("Số lượng Account", f"{num_accounts:,}", help='Trường chỉ số tài chính trong BCTC đã chuẩn hóa (format)')
+            with col_metrics_2:
+                st.metric("Account Null", f"{null_accounts:,}")
+                st.metric("Account % Null", f"{null_account_ratio:.2f}%")
+                st.metric("Value Null", f"{null_values:,}")
+                st.metric("Value % Null", f"{null_value_ratio:.2f}%")
+
+        with col_missing_data:
+            st.markdown("##### **Kiểm tra Công ty thiếu Báo cáo**")
+            
+            start_year, end_year = selected_year_range
+            total_years_in_range = end_year - start_year + 1
+
+            if total_years_in_range > 1:
+                # Đếm số năm có báo cáo cho mỗi công ty
+                reported_years_per_company = df_filtered.groupby('company_code')['report_date'].nunique()
+                
+                # Sửa logic: Lọc ra các công ty có số năm báo cáo ÍT HƠN tổng số năm
+                missing_data_companies = reported_years_per_company[reported_years_per_company < total_years_in_range].reset_index()
+                
+                if not missing_data_companies.empty:
+                    missing_data_companies.columns = ['Mã CK', 'Số năm có BC']
+                    missing_data_companies['Số năm thiếu BC'] = total_years_in_range - missing_data_companies['Số năm có BC']
+                    # Thêm cột tỉ lệ thiếu để visualize
+                    missing_data_companies['Tỉ lệ thiếu'] = (missing_data_companies['Số năm thiếu BC'] / total_years_in_range) * 100
+                    
+                    missing_data_companies.sort_values(by=['Số năm thiếu BC'], ascending=False, inplace=True)
+                    
+                    st.dataframe(
+                        missing_data_companies,
+                        column_config={
+                            "Tỉ lệ thiếu": st.column_config.ProgressColumn(
+                                "Tỉ lệ thiếu",
+                                help="Tỉ lệ số năm thiếu báo cáo trong khoảng thời gian đã chọn.",
+                                format="%d%%",
+                                min_value=0,
+                                max_value=100,
+                            ),
+                        },
+                        column_order=("Mã CK", "Số năm có BC", "Số năm thiếu BC", "Tỉ lệ thiếu"),
+                        use_container_width=True,
+                        height=150,
+                        hide_index=True,
+                    )
+                else:
+                    st.success("Tất cả công ty trong bộ lọc đều có đủ báo cáo cho các năm đã chọn.")
+            else:
+                st.info("Chọn khoảng thời gian dài hơn 1 năm để kiểm tra dữ liệu thiếu.")
+
 else:
     st.warning("Không có dữ liệu phù hợp với bộ lọc đã chọn.")
-    st.stop() # Dừng nếu không có dữ liệu để hiển thị
+    st.stop()
 
-st.markdown("---")
+# --- Hiển thị các biểu đồ (Charts) ---
+st.subheader("III. Trực quan hóa Dữ liệu 📈")
 
-# --- Hiển thị các biểu đồ (Charts) - Đã cập nhật ---
+# Chart 1: Time Series (Full Width)
+with st.container(border=True):
+    st.markdown("#### **Số lượng Công ty & Chỉ số BCTC theo Thời gian**")
+    # Chuẩn bị dữ liệu cho biểu đồ time series
+    df_time_series = df_filtered.groupby('report_date').agg(
+        company_count=('company_code', 'nunique'),
+        record_count=('account','nunique') 
+    ).reset_index()
+
+    # Tạo biểu đồ với trục y thứ hai
+    fig_time_series = make_subplots(specs=[[{"secondary_y": True}]])
+
+    # Thêm đường cho số lượng công ty
+    fig_time_series.add_trace(
+        go.Scatter(
+            x=df_time_series['report_date'], 
+            y=df_time_series['company_count'], 
+            name="Số lượng công ty", 
+            mode='lines+markers',
+            line=dict(color=color1) # <--- ÁP DỤNG MÀU TÙY CHỈNH
+        ),
+        secondary_y=False,
+    )
+
+    # Thêm đường cho số lượng bản ghi
+    fig_time_series.add_trace(
+        go.Scatter(
+            x=df_time_series['report_date'], 
+            y=df_time_series['record_count'], 
+            name="Số lượng chỉ số", 
+            mode='lines+markers',
+            line=dict(color=color2) # <--- ÁP DỤNG MÀU TÙY CHỈNH
+        ),
+        secondary_y=True,
+    )
+
+    # Cập nhật layout
+    fig_time_series.update_layout(
+        height=300, 
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        paper_bgcolor='rgba(0,0,0,0)', 
+        plot_bgcolor='rgba(0,0,0,0)'
+    )
+    fig_time_series.update_xaxes(
+        title_text="Năm báo cáo",
+        dtick=1 
+    )
+    fig_time_series.update_yaxes(title_text="Số lượng Công ty", secondary_y=False)
+    fig_time_series.update_yaxes(title_text="Số lượng Chỉ số", secondary_y=True)
+    
+    st.plotly_chart(fig_time_series, use_container_width=True)
+
+
+# Chart 2 & 3: Side-by-side
 col_chart1, col_chart2 = st.columns(2)
 
 with col_chart1:
-    st.subheader("Phân bổ bản ghi theo Ngành")
-    # Nhóm dữ liệu theo ngành và đếm số lượng bản ghi
-    industry_counts = df_filtered['industry'].value_counts().sort_values(ascending=False)
-    # Tạo biểu đồ cột
-    fig_industry = px.bar(
-        industry_counts,
-        x=industry_counts.index,
-        y=industry_counts.values,
-        title="Số lượng bản ghi theo từng Ngành",
-        labels={'y': 'Số lượng bản ghi', 'x': 'Ngành'},
-        color=industry_counts.index,
-        template='plotly_white'
-    )
-    fig_industry.update_layout(showlegend=False)
-    st.plotly_chart(fig_industry, use_container_width=True)
+    with st.container(border=True):
+        st.markdown("#### **Phân bổ bản ghi theo Ngành**")
+        industry_counts = df_filtered['industry'].value_counts().nlargest(15)
+        fig_industry = px.bar(
+            industry_counts,
+            x=industry_counts.index, y=industry_counts.values,
+            labels={'y': 'Số lượng bản ghi', 'x': 'Ngành'},
+            color=industry_counts.index, color_discrete_sequence=px.colors.qualitative.Pastel1,
+            text_auto=True
+        )
+        fig_industry.update_layout(
+            height=300, 
+            showlegend=False, 
+            title_x=0.5, 
+            paper_bgcolor='rgba(0,0,0,0)', 
+            plot_bgcolor='rgba(0,0,0,0)'
+        )
+        st.plotly_chart(fig_industry, use_container_width=True)
 
 with col_chart2:
-    st.subheader("Tỉ lệ phân bổ các Loại báo cáo")
-    # Đếm số lượng bản ghi cho mỗi loại báo cáo
-    report_type_counts = df_filtered['report_type'].value_counts()
-    # Tạo biểu đồ tròn (pie chart)
-    fig_report_type = px.pie(
-        report_type_counts,
-        names=report_type_counts.index,
-        values=report_type_counts.values,
-        title="Tỉ lệ các loại báo cáo trong dữ liệu đã lọc",
-        template='plotly_white'
-    )
-    fig_report_type.update_traces(textposition='inside', textinfo='percent+label')
-    st.plotly_chart(fig_report_type, use_container_width=True)
+    with st.container(border=True):
+        st.markdown("#### **Tỉ lệ phân bổ các Loại báo cáo**")
+        report_type_counts = df_filtered['report_type'].value_counts()
+        fig_report_type = px.pie(
+            report_type_counts, names=report_type_counts.index, values=report_type_counts.values,
+            color_discrete_sequence=px.colors.qualitative.Pastel
+        )
+        fig_report_type.update_traces(textposition='inside', textinfo='percent+label')
+        fig_report_type.update_layout(
+            height=300, 
+            showlegend=True, 
+            title_x=0.5, 
+            paper_bgcolor='rgba(0,0,0,0)', 
+            plot_bgcolor='rgba(0,0,0,0)'
+        )
+        st.plotly_chart(fig_report_type, use_container_width=True)
 
+st.subheader("IV. Preview và Tải về Data 🗃️")
+with st.container(border=True):
+    
+    # Sắp xếp dữ liệu
+    df_to_display = df_filtered.copy().sort_values(by=['report_date'], ascending=False)
 
-# --- Hiển thị mẫu dữ liệu (Sample Data) ---
-st.subheader("Dữ liệu chi tiết sau khi lọc")
-st.dataframe(df_filtered.head(100)) # Chỉ hiển thị 100 dòng đầu tiên để giao diện gọn gàng
+    # Thêm ô tìm kiếm
+    col_search1, col_search2 = st.columns(2)
+    with col_search1:
+        search_company = st.text_input('Tìm kiếm theo Mã Công ty (Company Code)', placeholder='Nhập mã, ví dụ: FPT, VNM...')
+    with col_search2:
+        search_account = st.text_input('Tìm kiếm theo Tên Chỉ tiêu (Account)', placeholder='Nhập từ khóa, ví dụ: net_profit_to_parent_shareholders, net_operating_profit...')
 
-# --- Nút tải xuống (Download Button) ---
-st.markdown("---")
-st.subheader("Tải xuống dữ liệu")
-st.markdown("Tải về toàn bộ dữ liệu đã được lọc. Nếu dữ liệu lớn (>500,000 dòng), tệp sẽ được tải về dưới dạng CSV để tối ưu hiệu suất.")
+    # Lọc dữ liệu dựa trên ô tìm kiếm (nếu có nhập)
+    if search_company:
+        df_to_display = df_to_display[df_to_display['company_code'].str.contains(search_company, case=False, na=False)]
+    if search_account:
+        df_to_display = df_to_display[df_to_display['account'].str.contains(search_account, case=False, na=False)]
 
-
-# Logic để chọn định dạng tải xuống dựa trên kích thước DataFrame
-if df_filtered.shape[0] <= 500000:
-    excel_data = to_excel(df_filtered)
-    st.download_button(
-        label="📥 Tải xuống file Excel",
-        data=excel_data,
-        file_name="ValuX_financial_statement_filtered.xlsx",
-        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-    )
-else:
-    # Chuyển đổi DataFrame sang CSV trực tiếp cho các tệp lớn
-    csv_data = df_filtered.to_csv(index=False).encode('utf-8')
-    st.download_button(
-        label="📥 Tải xuống file CSV (Dữ liệu lớn)",
-        data=csv_data,
-        file_name="ValuX_financial_statement_data_filtered.csv",
-        mime="text/csv"
-    )
+    # Hiển thị dataframe
+    st.dataframe(df_to_display.head(5000))
+    st.markdown("---")
+    st.markdown(f"Tải về **{len(df_to_display):,}** dòng dữ liệu đã được lọc. Nếu dữ liệu lớn (>500,000 dòng), tệp sẽ được tải về dưới dạng CSV để tối ưu hiệu suất.")
+    
+    if df_to_display.shape[0] <= 500000:
+        st.download_button(
+            label="📥 Tải xuống file Excel",
+            data=to_excel(df_to_display),
+            file_name="ValuX_financial_statement_filtered.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        )
+    else:
+        st.download_button(
+            label="📥 Tải xuống file CSV (Dữ liệu lớn)",
+            data=df_to_display.to_csv(index=False).encode('utf-8'),
+            file_name="ValuX_financial_statement_data_filtered.csv",
+            mime="text/csv"
+        )

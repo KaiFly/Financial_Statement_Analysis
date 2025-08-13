@@ -1,0 +1,697 @@
+symbol,exchange,organ_name,industry
+YEG,HSX,Công ty Cổ phần Tập đoàn Yeah1,Truyền thông
+YBM,HSX,Công ty Cổ phần Khoáng sản Công nghiệp Yên Bái,Tài nguyên Cơ bản
+X20,HNX,Công ty Cổ phần X20,Hàng cá nhân & Gia dụng
+WSS,HNX,Công ty Cổ phần Chứng khoán Phố Wall,Dịch vụ tài chính
+WCS,HNX,Công ty Cổ phần Bến xe Miền Tây,Hàng & Dịch vụ Công nghiệp
+VTZ,HNX,Công ty Cổ phần Sản xuất và Thương mại Nhựa Việt Thành,Hóa chất
+VTV,HNX,Công ty Cổ phần Năng lượng và Môi trường VICEM,Xây dựng và Vật liệu
+VTP,HSX,Tổng Công ty Cổ phần Bưu chính Viettel,Hàng & Dịch vụ Công nghiệp
+VTO,HSX,Công ty Cổ phần Vận tải Xăng dầu VITACO,Hàng & Dịch vụ Công nghiệp
+VTJ,HNX,Công ty Cổ phần Thương mại và Đầu tư VI NA TA BA,Hàng cá nhân & Gia dụng
+VTH,HNX,Công ty Cổ phần Dây cáp điện Việt Thái,Hàng & Dịch vụ Công nghiệp
+VTC,HNX,Công ty Cổ phần Viễn Thông VTC,Công nghệ Thông tin
+VTB,HSX,Công ty Cổ phần Viettronics Tân Bình,Hàng & Dịch vụ Công nghiệp
+VSM,HNX,Công ty Cổ phần Container Miền Trung,Hàng & Dịch vụ Công nghiệp
+VSI,HSX,Công ty Cổ phần Đầu tư và Xây dựng Cấp thoát nước,Xây dựng và Vật liệu
+VSH,HSX,Công ty Cổ phần Thủy điện Vĩnh Sơn - Sông Hinh,"Điện, nước & xăng dầu khí đốt"
+VSC,HSX,Công ty Cổ phần Container Việt Nam,Hàng & Dịch vụ Công nghiệp
+VSA,HNX,Công ty Cổ phần Đại lý Hàng hải Việt Nam,Hàng & Dịch vụ Công nghiệp
+VRE,HSX,Công ty Cổ phần Vincom Retail,Bất động sản
+VRC,HSX,Công ty Cổ phần Bất động sản và Đầu tư VRC,Bất động sản
+VPS,HSX,Công ty Cổ phần Thuốc sát trùng Việt Nam,Hóa chất
+VPL,HSX,Công ty Cổ phần Vinpearl,Du lịch và Giải trí
+VPI,HSX,Công ty Cổ phần Phát triển Bất động sản Văn Phú,Bất động sản
+VPH,HSX,Công ty Cổ phần Vạn Phát Hưng,Bất động sản
+VPG,HSX,Công ty Cổ phần Đầu tư Thương mại Xuất nhập khẩu Việt Phát,Tài nguyên Cơ bản
+VPD,HSX,Công ty Cổ phần Phát triển Điện lực Việt Nam,"Điện, nước & xăng dầu khí đốt"
+VPB,HSX,Ngân hàng Thương mại Cổ phần Việt Nam Thịnh Vượng,Ngân hàng
+VOS,HSX,Công ty Cổ phần Vận tải Biển Việt Nam,Hàng & Dịch vụ Công nghiệp
+VNT,HNX,Công ty Cổ phần Giao nhận Vận tải Ngoại Thương,Hàng & Dịch vụ Công nghiệp
+VNS,HSX,Công ty Cổ phần Ánh Dương Việt Nam,Du lịch và Giải trí
+VNR,HNX,Tổng Công ty Cổ phần Tái bảo hiểm Quốc gia Việt Nam,Bảo hiểm
+VNM,HSX,Công ty Cổ phần Sữa Việt Nam,Thực phẩm và đồ uống
+VNL,HSX,Công ty Cổ phần Logistics Vinalink,Hàng & Dịch vụ Công nghiệp
+VNG,HSX,Công ty Cổ phần Du Lịch Thành Thành Công,Du lịch và Giải trí
+VNF,HNX,Công ty Cổ phần Vinafreight,Hàng & Dịch vụ Công nghiệp
+VNE,HSX,Tổng Công ty Cổ phần Xây dựng điện Việt Nam,Xây dựng và Vật liệu
+VND,HSX,Công ty Cổ phần Chứng khoán VNDIRECT,Dịch vụ tài chính
+VNC,HNX,Công ty Cổ phần Tập đoàn Vinacontrol,Hàng & Dịch vụ Công nghiệp
+VMS,HNX,Công ty Cổ phần Phát triển Hàng Hải,Hàng & Dịch vụ Công nghiệp
+VMD,HSX,Công ty Cổ phần Y Dược phẩm Vimedimex,Y tế
+VMC,HNX,Công ty Cổ phần VIMECO,Xây dựng và Vật liệu
+VLA,HNX,Công ty Cổ phần Đầu tư và Phát triển Công nghệ Văn Lang,Công nghệ Thông tin
+VJC,HSX,Công ty Cổ phần Hàng không Vietjet,Du lịch và Giải trí
+VIX,HSX,Công ty Cổ phần Chứng khoán VIX,Dịch vụ tài chính
+VIT,HNX,Công ty Cổ phần Viglacera Tiên Sơn,Xây dựng và Vật liệu
+VIP,HSX,Công ty Cổ phần Vận tải Xăng dầu VIPCO,Hàng & Dịch vụ Công nghiệp
+VIG,HNX,Công ty Cổ phần Chứng khoán Đầu tư Tài chính Việt Nam,Dịch vụ tài chính
+VIF,HNX,Tổng Công ty Lâm nghiệp Việt Nam - Công ty Cổ phần,Tài nguyên Cơ bản
+VID,HSX,Công ty Cổ phần Đầu tư Phát triển Thương mại Viễn Đông,Tài nguyên Cơ bản
+VIC,HSX,Tập đoàn Vingroup - Công ty CP,Bất động sản
+VIB,HSX,Ngân hàng Thương mại Cổ phần Quốc tế Việt Nam,Ngân hàng
+VHM,HSX,Công ty Cổ phần Vinhomes,Bất động sản
+VHL,HNX,Công ty Cổ phần Viglacera Hạ Long,Xây dựng và Vật liệu
+VHE,HNX,Công ty Cổ phần Dược liệu và Thực phẩm Việt Nam,Y tế
+VHC,HSX,Công ty Cổ phần Vĩnh Hoàn,Thực phẩm và đồ uống
+VGS,HNX,Công ty Cổ phần Ống thép Việt - Đức VG PIPE,Tài nguyên Cơ bản
+VGP,HNX,Công ty Cổ phần Cảng Rau Quả,Hàng & Dịch vụ Công nghiệp
+VGC,HSX,Tổng Công ty Viglacera - Công ty Cổ phần,Xây dựng và Vật liệu
+VFS,HNX,Công ty Cổ phần Chứng khoán Nhất Việt,Dịch vụ tài chính
+VFG,HSX,Công ty Cổ phần Khử trùng Việt Nam,Hóa chất
+VE4,HNX,Công ty Cổ phần Xây dựng điện VNECO4,Xây dựng và Vật liệu
+VE3,HNX,Công ty Cổ phần Xây dựng điện VNECO 3,Xây dựng và Vật liệu
+VE1,HNX,Công ty Cổ phần Xây dựng điện VNECO 1,Xây dựng và Vật liệu
+VDS,HSX,Công ty Cổ phần Chứng khoán Rồng Việt,Dịch vụ tài chính
+VDP,HSX,Công ty Cổ phần Dược phẩm Trung ương VIDIPHA,Y tế
+VDL,HNX,Công ty Cổ phần Thực phẩm Lâm Đồng,Thực phẩm và đồ uống
+VCS,HNX,Công ty Cổ phần VICOSTONE,Xây dựng và Vật liệu
+VCM,HNX,Công ty Cổ phần BV Life,Hàng & Dịch vụ Công nghiệp
+VCI,HSX,Công ty Cổ phần Chứng khoán Vietcap,Dịch vụ tài chính
+VCG,HSX,Tổng Công ty Cổ phần Xuất nhập khẩu và Xây dựng Việt Nam,Xây dựng và Vật liệu
+VCF,HSX,Công ty Cổ phần VinaCafé Biên Hòa,Thực phẩm và đồ uống
+VCC,HNX,Công ty Cổ phần Vinaconex 25,Xây dựng và Vật liệu
+VCB,HSX,Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam,Ngân hàng
+VCA,HSX,Công ty Cổ phần Thép VICASA - VNSTEEL,Tài nguyên Cơ bản
+VC9,HNX,Công ty Cổ phần Xây dựng số 9 - VC9,Xây dựng và Vật liệu
+VC7,HNX,Công ty Cổ phần Tập đoàn BGI,Xây dựng và Vật liệu
+VC6,HNX,Công ty cổ phần Xây dựng và Đầu tư Visicons,Xây dựng và Vật liệu
+VC3,HNX,Công ty Cổ phần Tập đoàn Nam Mê Kông,Bất động sản
+VC2,HNX,Công ty Cổ phần Đầu tư và Xây dựng VINA2,Xây dựng và Vật liệu
+VC1,HNX,Công ty Cổ phần Xây dựng số 1,Xây dựng và Vật liệu
+VBC,HNX,"Công ty Cổ phần Nhựa, Bao bì Vinh",Hàng & Dịch vụ Công nghiệp
+VAF,HSX,Công ty Cổ phần Phân lân nung chảy Văn Điển,Hóa chất
+VAB,HSX,Ngân hàng Thương mại Cổ phần Việt Á,Ngân hàng
+V21,HNX,Công ty Cổ phần Vinaconex 21,Bất động sản
+V12,HNX,Công ty Cổ phần Xây dựng số 12,Xây dựng và Vật liệu
+UNI,HNX,Công ty Cổ phần Đầu tư và Phát triển Sao Mai Việt,Công nghệ Thông tin
+UIC,HSX,Công ty Cổ phần Đầu tư Phát triển Nhà và Đô thị IDICO,"Điện, nước & xăng dầu khí đốt"
+TYA,HSX,Công ty Cổ phần Dây và Cáp điện Taya Việt Nam,Hàng & Dịch vụ Công nghiệp
+TXM,HNX,Công ty Cổ phần VICEM Thạch cao Xi Măng,Xây dựng và Vật liệu
+TVT,HSX,Tổng Công ty Việt Thắng - CTCP,Hàng cá nhân & Gia dụng
+TVS,HSX,Công ty Cổ phần Chứng khoán Thiên Việt,Dịch vụ tài chính
+TVD,HNX,Công ty Cổ phần Than Vàng Danh - Vinacomin,Tài nguyên Cơ bản
+TVC,HNX,Công ty Cổ phần Tập đoàn Quản lý Tài sản Trí Việt,Dịch vụ tài chính
+TVB,HSX,Công ty Cổ phần Chứng khoán Trí Việt,Dịch vụ tài chính
+TV4,HNX,Công ty Cổ phần Tư vấn Xây dựng Điện 4,Hàng & Dịch vụ Công nghiệp
+TV3,HNX,Công ty Cổ phần Tư vấn Xây dựng Điện 3,Xây dựng và Vật liệu
+TV2,HSX,Công ty Cổ phần Tư vấn Xây dựng Điện 2,Hàng & Dịch vụ Công nghiệp
+TTT,HNX,Công ty Cổ phần Du Lịch - Thương Mại Tây Ninh,Du lịch và Giải trí
+TTL,HNX,Tổng Công ty Thăng Long - Công ty Cổ phần,Xây dựng và Vật liệu
+TTH,HNX,Công ty Cổ phần Thương mại và Dịch vụ Tiến Thành,Tài nguyên Cơ bản
+TTF,HSX,Công ty Cổ phần Tập đoàn Kỹ nghệ Gỗ Trường Thành,Tài nguyên Cơ bản
+TTE,HSX,Công ty Cổ phần Đầu tư Năng lượng Trường Thịnh,"Điện, nước & xăng dầu khí đốt"
+TTC,HNX,Công ty Cổ phần Gạch men Thanh Thanh,Xây dựng và Vật liệu
+TTA,HSX,Công ty Cổ phần Đầu tư Xây dựng và Phát triển Trường Thành,"Điện, nước & xăng dầu khí đốt"
+TSC,HSX,Công ty Cổ phần Vật tư Kỹ thuật Nông nghiệp Cần Thơ,Hóa chất
+TSB,HNX,Công ty Cổ phần Ắc quy Tia Sáng,Hàng & Dịch vụ Công nghiệp
+TRC,HSX,Công ty Cổ phần Cao su Tây Ninh,Hóa chất
+TRA,HSX,Công ty Cổ phần Traphaco,Y tế
+TPP,HNX,Công ty Cổ phần Tân Phú Việt Nam,Hàng & Dịch vụ Công nghiệp
+TPC,HSX,Công ty Cổ phần Nhựa Tân Đại Hưng,Hóa chất
+TPB,HSX,Ngân hàng Thương mại Cổ phần Tiên Phong,Ngân hàng
+TOT,HNX,Công ty Cổ phần Transimex Logistics,Hàng & Dịch vụ Công nghiệp
+TNT,HSX,Công ty Cổ phần Tập đoàn TNT,Tài nguyên Cơ bản
+TNI,HSX,Công ty Cổ phần Tập đoàn Thành Nam,Tài nguyên Cơ bản
+TNH,HSX,Công ty Cổ phần Tập đoàn Bệnh viện TNH,Y tế
+TNG,HNX,Công ty Cổ phần Đầu tư và Thương mại TNG,Hàng cá nhân & Gia dụng
+TNC,HSX,Công ty Cổ phần Cao su Thống Nhất,Hóa chất
+TN1,HSX,Công ty Cổ phần Rox Key Holdings,Bất động sản
+TMX,HNX,Công ty Cổ phần VICEM Thương mại Xi măng,Xây dựng và Vật liệu
+TMT,HSX,Công ty Cổ phần Ô tô TMT,Ô tô và phụ tùng
+TMS,HSX,Công ty Cổ phần Transimex,Hàng & Dịch vụ Công nghiệp
+TMP,HSX,Công ty Cổ phần Thủy điện Thác Mơ,"Điện, nước & xăng dầu khí đốt"
+TMC,HNX,Công ty Cổ phần Thương mại Xuất nhập khẩu Thủ Đức,"Điện, nước & xăng dầu khí đốt"
+TMB,HNX,Công ty Cổ phần Kinh doanh Than Miền Bắc - Vinacomin,Tài nguyên Cơ bản
+TLH,HSX,Công ty Cổ phần Tập đoàn Thép Tiến Lên,Tài nguyên Cơ bản
+TLG,HSX,Công ty Cổ phần Tập đoàn Thiên Long,Hàng cá nhân & Gia dụng
+TLD,HSX,Công ty Cổ phần Đầu tư Xây dựng và Phát triển Đô thị Thăng Long,Bất động sản
+TKU,HNX,Công ty Cổ phần Công nghiệp Tung Kuang,Tài nguyên Cơ bản
+TJC,HNX,Công ty Cổ phần Dịch vụ Vận tải và Thương mại,Hàng & Dịch vụ Công nghiệp
+TIX,HSX,Công ty Cổ phần Sản xuất Kinh doanh Xuất nhập khẩu Dịch vụ và Đầu tư Tân Bình,Bất động sản
+TIP,HSX,Công ty Cổ phần Phát triển Khu công nghiệp Tín Nghĩa,Bất động sản
+TIG,HNX,Công ty Cổ phần Tập đoàn Đầu tư Thăng Long,Bất động sản
+THT,HNX,Công ty Cổ phần Than Hà Tu - Vinacomin,Tài nguyên Cơ bản
+THS,HNX,Công ty Cổ phần Thanh Hoa Sông Đà,Bán lẻ
+THG,HSX,Công ty Cổ phần Đầu tư và Xây dựng Tiền Giang,Xây dựng và Vật liệu
+THD,HNX,Công ty Cổ phần Thaiholdings,Bất động sản
+THB,HNX,Công ty Cổ phần Bia Hà Nội - Thanh Hóa,Thực phẩm và đồ uống
+TFC,HNX,Công ty Cổ phần Trang,Thực phẩm và đồ uống
+TET,HNX,Công ty Cổ phần Vải sợi May mặc Miền Bắc,Hàng cá nhân & Gia dụng
+TEG,HSX,Công ty Cổ phần Năng Lượng và Bất động sản Trường Thành,Bất động sản
+TDW,HSX,Công ty Cổ phần Cấp nước Thủ Đức,"Điện, nước & xăng dầu khí đốt"
+TDT,HNX,Công ty Cổ phần Đầu tư và Phát triển TDT,Hàng cá nhân & Gia dụng
+TDP,HSX,Công ty Cổ phần Thuận Đức,Hàng & Dịch vụ Công nghiệp
+TDM,HSX,Công ty Cổ phần Nước Thủ Dầu Một,"Điện, nước & xăng dầu khí đốt"
+TDH,HSX,Công ty Cổ phần Phát triển Nhà Thủ Đức,Bất động sản
+TDG,HSX,Công ty Cổ phần Đầu tư TDG Global,"Điện, nước & xăng dầu khí đốt"
+TDC,HSX,Công ty Cổ phần Kinh doanh và Phát triển Bình Dương,Bất động sản
+TD6,HNX,Công ty Cổ Phần Than Đèo Nai - Cọc Sáu - TKV,Tài nguyên Cơ bản
+TCT,HSX,Công ty Cổ phần Cáp treo Núi Bà Tây Ninh,Du lịch và Giải trí
+TCR,HSX,Công ty Cổ phần Công nghiệp Gốm sứ TAICERA,Xây dựng và Vật liệu
+TCO,HSX,Công ty Cổ phần TCO Holdings,Thực phẩm và đồ uống
+TCM,HSX,Công ty Cổ phần Dệt may - Đầu tư - Thương mại Thành Công,Hàng cá nhân & Gia dụng
+TCL,HSX,Công ty Cổ phần Đại lý Giao nhận Vận tải Xếp dỡ Tân Cảng,Hàng & Dịch vụ Công nghiệp
+TCI,HSX,Công ty Cổ phần Chứng khoán Thành Công,Dịch vụ tài chính
+TCH,HSX,Công ty Cổ phần Đầu tư Dịch vụ Tài chính Hoàng Huy,Bất động sản
+TCD,HSX,Công ty cổ phần Tập đoàn Xây dựng Tracodi,Xây dựng và Vật liệu
+TCB,HSX,Ngân hàng Thương mại Cổ phần Kỹ thương Việt Nam,Ngân hàng
+TBX,HNX,Công ty Cổ phần Xi măng Thái Bình,Xây dựng và Vật liệu
+TBC,HSX,Công ty Cổ phần Thủy điện Thác Bà,"Điện, nước & xăng dầu khí đốt"
+TAL,HSX,Công Ty Cổ Phần Đầu Tư Bất Động Sản Taseco,Bất động sản
+TA9,HNX,Công ty Cổ phần Xây lắp Thành An 96,Xây dựng và Vật liệu
+SZL,HSX,Công ty Cổ phần Sonadezi Long Thành,Bất động sản
+SZC,HSX,Công ty Cổ phần Sonadezi Châu Đức,Bất động sản
+SZB,HNX,Công ty Cổ phần Sonadezi Long Bình,Bất động sản
+SVT,HSX,Công ty Cổ phần Công nghệ Sài Gòn Viễn Đông,Bán lẻ
+SVN,HNX,Công ty Cổ phần Tập đoàn Vexilla Việt Nam,Xây dựng và Vật liệu
+SVI,HSX,Công ty Cổ phần Bao bì Biên Hòa,Hàng & Dịch vụ Công nghiệp
+SVD,HSX,Công ty Cổ phần Đầu tư & Thương mại Vũ Đăng,Hàng cá nhân & Gia dụng
+SVC,HSX,Công ty Cổ phần Dịch vụ tổng hợp Sài Gòn,Ô tô và phụ tùng
+STP,HNX,Công ty Cổ phần Công nghiệp Thương mại Sông Đà,Hàng & Dịch vụ Công nghiệp
+STK,HSX,Công ty Cổ phần Sợi Thế Kỷ,Hàng cá nhân & Gia dụng
+STG,HSX,Công ty Cổ phần Kho Vận Miền Nam,Hàng & Dịch vụ Công nghiệp
+STC,HNX,Công ty Cổ phần Sách và Thiết bị trường học Thành phố Hồ Chí Minh,Truyền thông
+STB,HSX,Ngân hàng Thương mại Cổ phần Sài Gòn Thương Tín,Ngân hàng
+ST8,HSX,Công ty Cổ phần Tập đoàn ST8,Công nghệ Thông tin
+SSM,HNX,Công ty Cổ phần Chế tạo kết cấu thép VNECO.SSM,Tài nguyên Cơ bản
+SSI,HSX,Công ty Cổ phần Chứng khoán SSI,Dịch vụ tài chính
+SSC,HSX,Công ty Cổ phần Giống cây trồng Miền Nam,Thực phẩm và đồ uống
+SSB,HSX,Ngân hàng Thương mại Cổ phần Đông Nam Á,Ngân hàng
+SRF,HSX,Công ty Cổ phần Searefico,Hàng & Dịch vụ Công nghiệp
+SRC,HSX,Công ty Cổ phần Cao su Sao Vàng,Ô tô và phụ tùng
+SRA,HNX,Công ty Cổ phần SARA Việt Nam,Công nghệ Thông tin
+SPM,HSX,Công ty Cổ phần S.P.M,Y tế
+SPC,HNX,Công ty Cổ phần Bảo vệ Thực vật Sài Gòn,Hóa chất
+SMT,HNX,Công ty Cổ phần SAMETEL,Công nghệ Thông tin
+SMN,HNX,Công ty Cổ phần Sách và thiết bị giáo dục Miền Nam,Truyền thông
+SMC,HSX,Công ty Cổ phần Đầu tư Thương mại SMC,Tài nguyên Cơ bản
+SMB,HSX,Công ty Cổ phần Bia Sài Gòn - Miền Trung,Thực phẩm và đồ uống
+SMA,HSX,Công ty Cổ phần Thiết bị Phụ tùng Sài Gòn,"Điện, nước & xăng dầu khí đốt"
+SLS,HNX,Công ty Cổ phần Mía đường Sơn La,Thực phẩm và đồ uống
+SKG,HSX,Công ty Cổ phần Tàu Cao tốc Superdong - Kiên Giang,Du lịch và Giải trí
+SJS,HSX,Công ty Cổ phần SJ Group,Bất động sản
+SJE,HNX,Công ty Cổ phần Sông Đà 11,Xây dựng và Vật liệu
+SJD,HSX,Công ty Cổ phần Thủy điện Cần Đơn,"Điện, nước & xăng dầu khí đốt"
+SJ1,HNX,Công ty Cổ phần Nông nghiệp Hùng Hậu,Thực phẩm và đồ uống
+SIP,HSX,Công ty Cổ phần Đầu tư Sài Gòn VRG,Bất động sản
+SHS,HNX,Công ty Cổ phần Chứng khoán Sài Gòn - Hà Nội,Dịch vụ tài chính
+SHP,HSX,Công ty Cổ phần Thủy điện Miền Nam,"Điện, nước & xăng dầu khí đốt"
+SHN,HNX,Công ty Cổ phần Đầu tư Tổng hợp Hà Nội,Tài nguyên Cơ bản
+SHI,HSX,Công ty Cổ phần Quốc tế Sơn Hà,Tài nguyên Cơ bản
+SHE,HNX,Công ty Cổ phần Phát triển Năng Lượng Sơn Hà,Hàng cá nhân & Gia dụng
+SHB,HSX,Ngân hàng Thương mại Cổ phần Sài Gòn – Hà Nội,Ngân hàng
+SHA,HSX,Công ty Cổ phần Sơn Hà Sài Gòn,Tài nguyên Cơ bản
+SGT,HSX,Công ty Cổ phần Công nghệ Viễn thông Sài Gòn,Công nghệ Thông tin
+SGR,HSX,Công ty Cổ phần Tổng Công ty Cổ phần Địa ốc Sài Gòn,Bất động sản
+SGN,HSX,Công ty Cổ phần Phục vụ mặt đất Sài Gòn,Hàng & Dịch vụ Công nghiệp
+SGH,HNX,Công ty Cổ phần Khách sạn Sài Gòn,Du lịch và Giải trí
+SGD,HNX,Công ty Cổ phần Sách Giáo dục tại Thành phố Hồ Chí Minh,Truyền thông
+SGC,HNX,Công ty Cổ phần Xuất nhập khẩu Sa Giang,Thực phẩm và đồ uống
+SFN,HNX,Công ty Cổ phần Dệt lưới Sài Gòn,Hàng & Dịch vụ Công nghiệp
+SFI,HSX,Công ty Cổ phần Đại lý Vận tải SAFI,Hàng & Dịch vụ Công nghiệp
+SFG,HSX,Công ty Cổ phần Phân bón Miền Nam,Hóa chất
+SFC,HSX,Công ty Cổ phần Nhiên liệu Sài Gòn,"Điện, nước & xăng dầu khí đốt"
+SED,HNX,Công ty Cổ phần Đầu tư và Phát triển Giáo dục Phương Nam,Truyền thông
+SEB,HNX,Công ty Cổ phần Đầu tư và Phát triển Điện Miền Trung,"Điện, nước & xăng dầu khí đốt"
+SDU,HNX,Công ty Cổ phần Đầu tư Xây dựng và Phát triển Đô thị Sông Đà,Xây dựng và Vật liệu
+SDN,HNX,Công ty Cổ phần Sơn Đồng Nai,Xây dựng và Vật liệu
+SDG,HNX,Công ty Cổ phần Sadico Cần Thơ,Hàng & Dịch vụ Công nghiệp
+SDC,HNX,Công ty Cổ phần Tư vấn Sông Đà,Hàng & Dịch vụ Công nghiệp
+SDA,HNX,Công ty Cổ phần SIMCO Sông Đà,Hàng & Dịch vụ Công nghiệp
+SD9,HNX,Công ty Cổ phần Sông Đà 9,Xây dựng và Vật liệu
+SD5,HNX,Công ty Cổ phần Sông Đà 5,Xây dựng và Vật liệu
+SCS,HSX,Công ty Cổ phần Dịch vụ Hàng hóa Sài Gòn,Du lịch và Giải trí
+SCR,HSX,Công ty Cổ phần Địa Ốc Sài Gòn Thương Tín,Bất động sản
+SCI,HNX,Công ty Cổ phần SCI E&C,Xây dựng và Vật liệu
+SCG,HNX,Công ty Cổ phần Tập đoàn Xây dựng SCG,Xây dựng và Vật liệu
+SC5,HSX,Công ty Cổ phần Xây dựng số 5,Xây dựng và Vật liệu
+SBV,HSX,Công ty Cổ phần Siam Brothers Việt Nam,Bán lẻ
+SBT,HSX,Công ty Cổ phần Thành Thành Công - Biên Hòa,Thực phẩm và đồ uống
+SBG,HSX,Công ty Cổ Phần Tập Đoàn Cơ Khí Công Nghệ Cao Siba,Hàng & Dịch vụ Công nghiệp
+SBA,HSX,Công ty Cổ phần Sông Ba,"Điện, nước & xăng dầu khí đốt"
+SAV,HSX,Công ty Cổ phần Hợp tác Kinh tế và Xuất nhập khẩu Savimex,Tài nguyên Cơ bản
+SAM,HSX,Công ty Cổ phần SAM Holdings,Công nghệ Thông tin
+SAF,HNX,Công ty Cổ phần Lương thực Thực phẩm SAFOCO,Thực phẩm và đồ uống
+SAB,HSX,Tổng Công ty Cổ phần Bia - Rượu - Nước Giải khát Sài Gòn,Thực phẩm và đồ uống
+S99,HNX,Công ty Cổ phần SCI,Xây dựng và Vật liệu
+S55,HNX,Công ty Cổ phần Sông Đà 505,Xây dựng và Vật liệu
+S4A,HSX,Công ty Cổ phần Thủy điện Sê San 4A,"Điện, nước & xăng dầu khí đốt"
+RYG,HSX,Công ty Cổ phần Sản xuất và Đầu tư Hoàng Gia,Xây dựng và Vật liệu
+REE,HSX,Công ty Cổ phần Cơ điện Lạnh,"Điện, nước & xăng dầu khí đốt"
+RCL,HNX,Công ty Cổ phần Địa ốc Chợ Lớn,Bất động sản
+RAL,HSX,Công ty Cổ phần Bóng đèn Phích nước Rạng Đông,Hàng cá nhân & Gia dụng
+QTC,HNX,Công ty Cổ phần Công trình Giao thông Vận tải Quảng Nam,Xây dựng và Vật liệu
+QST,HNX,Công ty Cổ phần Sách và Thiết bị trường học Quảng Ninh,Truyền thông
+QNP,HSX,Công ty Cổ phần Cảng Quy Nhơn,Hàng & Dịch vụ Công nghiệp
+QHD,HNX,Công ty Cổ phần Que hàn điện Việt Đức,Hàng & Dịch vụ Công nghiệp
+QCG,HSX,Công ty Cổ phần Quốc Cường Gia Lai,Bất động sản
+PVT,HSX,Tổng Công ty Cổ phần Vận tải Dầu khí,Hàng & Dịch vụ Công nghiệp
+PVS,HNX,Tổng Công ty Cổ phần Dịch vụ Kỹ thuật Dầu khí Việt Nam,Dầu khí
+PVP,HSX,Công ty Cổ phần Vận tải Dầu khí Thái Bình Dương,Hàng & Dịch vụ Công nghiệp
+PVI,HNX,Công ty Cổ phần PVI,Bảo hiểm
+PVG,HNX,Công ty Cổ phần Kinh doanh LPG Việt Nam,"Điện, nước & xăng dầu khí đốt"
+PVD,HSX,Tổng Công ty Cổ phần Khoan và Dịch vụ khoan Dầu khí,Dầu khí
+PVC,HNX,Tổng Công ty Hóa chất và Dịch vụ Dầu khí - Công ty Cổ phần,Dầu khí
+PVB,HNX,Công ty Cổ phần Bọc ống Dầu khí Việt Nam,Dầu khí
+PV2,HNX,Công ty Cổ phần Đầu tư PV2,Bất động sản
+PTX,HNX,Công ty Cổ phần Vận tải và Dịch vụ Petrolimex Nghệ Tĩnh,"Điện, nước & xăng dầu khí đốt"
+PTS,HNX,Công ty Cổ phần Vận tải và Dịch vụ Petrolimex Hải Phòng,Hàng & Dịch vụ Công nghiệp
+PTL,HSX,Công ty Cổ phần Victory Group,Bất động sản
+PTI,HNX,Tổng Công ty Cổ phần Bảo hiểm Bưu điện,Bảo hiểm
+PTD,HNX,Công ty Cổ phần Thiết kế - Xây dựng - Thương mại Phúc Thịnh,Xây dựng và Vật liệu
+PTC,HSX,Công ty Cổ phần Đầu tư ICAPITAL,Xây dựng và Vật liệu
+PTB,HSX,Công ty Cổ phần Phú Tài,Tài nguyên Cơ bản
+PSW,HNX,Công ty Cổ phần Phân bón và hóa chất dầu khí Tây Nam Bộ,Hóa chất
+PSI,HNX,Công ty Cổ phần Chứng khoán Dầu khí,Dịch vụ tài chính
+PSE,HNX,Công ty Cổ phần Phân bón và hóa chất dầu khí Đông Nam Bộ,Hóa chất
+PSD,HNX,Công ty Cổ phần Dịch vụ Phân phối Tổng hợp Dầu khí,Bán lẻ
+PSC,HNX,Công ty Cổ phần Vận tải và Dịch vụ Petrolimex Sài Gòn,Hàng & Dịch vụ Công nghiệp
+PRE,HNX,Tổng Công ty Cổ phần Tái bảo hiểm Hà Nội,Bảo hiểm
+PRC,HNX,Công ty Cổ phần Logistics Portserco,Hàng & Dịch vụ Công nghiệp
+PPY,HNX,Công ty Cổ phần Xăng dầu dầu khí Phú Yên,"Điện, nước & xăng dầu khí đốt"
+PPT,HNX,Công ty cổ phần Petro Times,"Điện, nước & xăng dầu khí đốt"
+PPS,HNX,Công ty Cổ phần Dịch vụ Kỹ thuật Điện lực Dầu khí Việt Nam,Hàng & Dịch vụ Công nghiệp
+PPP,HNX,Công ty Cổ phần Dược phẩm Phong Phú,Y tế
+PPE,HNX,Công ty Cổ phần Tư vấn Đầu tư PP Enterprise,Hàng & Dịch vụ Công nghiệp
+PPC,HSX,Công ty Cổ phần Nhiệt điện Phả Lại,"Điện, nước & xăng dầu khí đốt"
+POW,HSX,Tổng Công ty Điện lực Dầu khí Việt Nam - CTCP,"Điện, nước & xăng dầu khí đốt"
+POT,HNX,Công ty Cổ phần Thiết bị Bưu điện,Công nghệ Thông tin
+PNJ,HSX,Công ty Cổ phần Vàng bạc Đá quý Phú Nhuận,Hàng cá nhân & Gia dụng
+PNC,HSX,Công ty Cổ phần Văn hóa Phương Nam,Truyền thông
+PMS,HNX,Công ty Cổ phần Cơ khí Xăng dầu,Hàng & Dịch vụ Công nghiệp
+PMP,HNX,Công ty Cổ phần Bao bì Đạm Phú Mỹ,Hàng & Dịch vụ Công nghiệp
+PMG,HSX,Công ty Cổ phần Đầu tư và Sản xuất Petro Miền Trung,"Điện, nước & xăng dầu khí đốt"
+PMC,HNX,Công ty Cổ phần Dược phẩm Dược liệu Pharmedic,Y tế
+PMB,HNX,Công ty Cổ phần Phân bón và Hóa chất Dầu khí Miền Bắc,Hóa chất
+PLX,HSX,Tập đoàn Xăng dầu Việt Nam,Dầu khí
+PLP,HSX,Công ty Cổ phần Sản xuất và Công nghệ Nhựa Pha Lê,Hóa chất
+PLC,HNX,Tổng Công ty Hóa dầu Petrolimex - Công ty Cổ phần,Hóa chất
+PJT,HSX,Công ty Cổ phần Vận tải Xăng dầu đường thủy Petrolimex,Hàng & Dịch vụ Công nghiệp
+PJC,HNX,Công ty Cổ phần Thương mại và Vận tải Petrolimex Hà Nội,"Điện, nước & xăng dầu khí đốt"
+PIT,HSX,Công ty Cổ phần Xuất nhập khẩu Petrolimex,Bán lẻ
+PIC,HNX,Công ty Cổ phần Đầu tư Điện lực 3,"Điện, nước & xăng dầu khí đốt"
+PIA,HNX,Công ty Cổ phần Tin học Viễn thông Petrolimex,Viễn thông
+PHR,HSX,Công ty Cổ phần Cao su Phước Hòa,Hóa chất
+PHN,HNX,Công ty Cổ phần Pin Hà Nội,Hàng & Dịch vụ Công nghiệp
+PHC,HSX,Công ty Cổ phần Xây dựng Phục Hưng Holdings,Xây dựng và Vật liệu
+PGV,HSX,Tổng Công ty Phát điện 3 - Công ty Cổ phần,"Điện, nước & xăng dầu khí đốt"
+PGT,HNX,Công ty Cổ phần PGT Holdings,Du lịch và Giải trí
+PGS,HNX,Công ty Cổ phần Kinh doanh Khí Miền Nam,"Điện, nước & xăng dầu khí đốt"
+PGN,HNX,Công ty Cổ phần Phụ Gia Nhựa,Hóa chất
+PGI,HSX,Tổng Công ty Cổ phần Bảo hiểm Petrolimex,Bảo hiểm
+PGD,HSX,Công ty Cổ phần Phân phối khí thấp áp dầu khí Việt Nam,"Điện, nước & xăng dầu khí đốt"
+PGC,HSX,Tổng Công ty Gas Petrolimex - Công ty Cổ phần,"Điện, nước & xăng dầu khí đốt"
+PET,HSX,Tổng Công ty Cổ phần Dịch vụ Tổng hợp Dầu khí,Bán lẻ
+PEN,HNX,Công ty Cổ phần Xây lắp III Petrolimex,Xây dựng và Vật liệu
+PDR,HSX,Công ty Cổ phần Phát triển Bất động sản Phát Đạt,Bất động sản
+PDN,HSX,Công ty Cổ phần Cảng Đồng Nai,Hàng & Dịch vụ Công nghiệp
+PDB,HNX,Công ty Cổ phần Tập đoàn Đầu tư DIN Capital,Xây dựng và Vật liệu
+PCT,HNX,Công ty Cổ phần Vận tải Biển Global Pacific,Hàng & Dịch vụ Công nghiệp
+PCH,HNX,Công ty Cổ phần Nhựa Picomat,Hóa chất
+PCE,HNX,Công ty Cổ phần Phân bón và hóa chất dầu khí Miền Trung,Hóa chất
+PC1,HSX,Công ty Cổ phần Tập đoàn PC1,Xây dựng và Vật liệu
+PBP,HNX,Công ty Cổ phần Bao bì Dầu khí Việt Nam,Hàng & Dịch vụ Công nghiệp
+PAN,HSX,Công ty Cổ phần Tập đoàn PAN,Thực phẩm và đồ uống
+PAC,HSX,Công ty Cổ phần Pin Ắc quy Miền Nam,Hàng & Dịch vụ Công nghiệp
+ORS,HSX,Công ty Cổ phần Chứng khoán Tiên Phong,Dịch vụ tài chính
+OPC,HSX,Công ty Cổ phần Dược Phẩm OPC,Y tế
+ONE,HNX,Công ty Cổ phần Công nghệ ONE,Công nghệ Thông tin
+OGC,HSX,Công ty Cổ phần Tập đoàn Đại Dương,Dịch vụ tài chính
+OCH,HNX,Công ty Cổ phần One Capital Hospitality,Thực phẩm và đồ uống
+OCB,HSX,Ngân hàng Thương mại Cổ phần Phương Đông,Ngân hàng
+NVT,HSX,Công ty Cổ phần Bất động sản Du lịch Ninh Vân Bay,Bất động sản
+NVL,HSX,Công ty Cổ phần Tập đoàn Đầu tư Địa ốc No Va,Bất động sản
+NVB,HNX,Ngân hàng Thương mại Cổ phần Quốc Dân,Ngân hàng
+NTP,HNX,Công ty Cổ phần Nhựa Thiếu niên Tiền Phong,Xây dựng và Vật liệu
+NTL,HSX,Công ty Cổ phần Phát triển Đô thị Từ Liêm,Bất động sản
+NTH,HNX,Công ty Cổ phần Thủy điện Nước Trong,"Điện, nước & xăng dầu khí đốt"
+NT2,HSX,Công ty Cổ phần Điện lực Dầu khí Nhơn Trạch 2,"Điện, nước & xăng dầu khí đốt"
+NST,HNX,Công ty Cổ phần Ngân Sơn,Hàng cá nhân & Gia dụng
+NSH,HNX,Công ty Cổ phần Tập đoàn Nhôm Sông Hồng Shalumi,Tài nguyên Cơ bản
+NSC,HSX,Công ty Cổ phần Tập đoàn Giống cây trồng Việt Nam,Thực phẩm và đồ uống
+NRC,HNX,Công ty Cổ phần Tập đoàn Danh Khôi,Bất động sản
+NO1,HSX,Công ty Cổ phần Tâp đoàn 911,Hàng & Dịch vụ Công nghiệp
+NNC,HSX,Công ty Cổ phần Đá Núi Nhỏ,Xây dựng và Vật liệu
+NLG,HSX,Công ty Cổ phần Đầu tư Nam Long,Bất động sản
+NKG,HSX,Công ty Cổ phần Thép Nam Kim,Tài nguyên Cơ bản
+NHT,HSX,Công ty Cổ phần Sản xuất và Thương mại Nam Hoa,Hàng cá nhân & Gia dụng
+NHH,HSX,Công ty Cổ phần Nhựa Hà Nội,Hóa chất
+NHC,HNX,Công ty Cổ phần Gạch ngói Nhị Hiệp,Xây dựng và Vật liệu
+NHA,HSX,Tổng Công ty Đầu tư Phát triển Nhà và Đô thị Nam Hà Nội,Xây dựng và Vật liệu
+NFC,HNX,Công ty Cổ phần Phân lân Ninh Bình,Hóa chất
+NET,HNX,Công ty Cổ phần Bột giặt Net,Hàng cá nhân & Gia dụng
+NDX,HNX,Công ty Cổ phần Xây lắp Phát triển Nhà Đà Nẵng,Xây dựng và Vật liệu
+NDN,HNX,Công ty Cổ phần Đầu tư Phát triển Nhà Đà Nẵng,Bất động sản
+NCT,HSX,Công ty Cổ phần Dịch vụ Hàng hóa Nội Bài,Hàng & Dịch vụ Công nghiệp
+NBW,HNX,Công ty Cổ phần Cấp nước Nhà Bè,"Điện, nước & xăng dầu khí đốt"
+NBP,HNX,Công ty Cổ phần Nhiệt Điện Ninh Bình,"Điện, nước & xăng dầu khí đốt"
+NBC,HNX,Công ty Cổ phần Than Núi Béo - Vinacomin,Tài nguyên Cơ bản
+NBB,HSX,Công ty Cổ phần Đầu tư Năm Bảy Bảy,Bất động sản
+NAV,HSX,Công ty Cổ phần Nam Việt,Xây dựng và Vật liệu
+NAP,HNX,Công ty Cổ phần Cảng Nghệ Tĩnh,Hàng & Dịch vụ Công nghiệp
+NAG,HNX,Công ty Cổ phần Tập đoàn Nagakawa,Hàng & Dịch vụ Công nghiệp
+NAF,HSX,Công ty Cổ phần Nafoods Group,Thực phẩm và đồ uống
+NAB,HSX,Ngân hàng Thương mại Cổ phần Nam Á,Ngân hàng
+MWG,HSX,Công ty Cổ phần Đầu tư Thế Giới Di Động,Bán lẻ
+MVB,HNX,Tổng Công ty Công nghiệp mỏ Việt Bắc TKV - Công ty Cổ phần,Tài nguyên Cơ bản
+MST,HNX,Công ty Cổ phần Đầu tư MST,Xây dựng và Vật liệu
+MSN,HSX,Công ty Cổ phần Tập đoàn Masan,Thực phẩm và đồ uống
+MSH,HSX,Công ty Cổ phần May Sông Hồng,Hàng cá nhân & Gia dụng
+MSB,HSX,Ngân hàng Thương mại Cổ phần Hàng Hải Việt Nam,Ngân hàng
+MKV,HNX,Công ty Cổ phần Dược Thú Y Cai Lậy,Y tế
+MIG,HSX,Tổng Công ty Cổ phần Bảo hiểm Quân đội,Bảo hiểm
+MIC,HNX,Công ty Cổ phần Kỹ nghệ Khoáng sản Quảng Nam,Tài nguyên Cơ bản
+MHC,HSX,Công ty Cổ phần MHC,Hàng & Dịch vụ Công nghiệp
+MEL,HNX,Công ty Cổ phần Thép Mê Lin,Tài nguyên Cơ bản
+MED,HNX,Công ty Cổ phần Dược Trung ương Mediplantex,Y tế
+MDG,HSX,Công ty Cổ phần Miền Đông,Xây dựng và Vật liệu
+MDC,HNX,Công ty Cổ phần Than Mông Dương - Vinacomin,Tài nguyên Cơ bản
+MCP,HSX,Công ty Cổ phần In và Bao bì Mỹ Châu,Hàng & Dịch vụ Công nghiệp
+MCO,HNX,Công ty Cổ phần Đầu tư và Xây dựng BDC Việt Nam,Xây dựng và Vật liệu
+MCM,HSX,Công ty Cổ phần Giống bò sữa Mộc Châu,Thực phẩm và đồ uống
+MCF,HNX,Công ty Cổ phần Xây lắp Cơ khí và Lương thực Thực phẩm,Thực phẩm và đồ uống
+MCC,HNX,Công ty Cổ phần Gạch ngói cao cấp,Xây dựng và Vật liệu
+MBS,HNX,Công ty Cổ phần Chứng khoán MB,Dịch vụ tài chính
+MBG,HNX,Công ty Cổ phần Tập đoàn MBG,Xây dựng và Vật liệu
+MBB,HSX,Ngân hàng Thương mại Cổ phần Quân đội,Ngân hàng
+MAS,HNX,Công ty cổ phần Dịch vụ Hàng Không Sân Bay Đà Nẵng,Du lịch và Giải trí
+MAC,HNX,Công ty Cổ phần Tập đoàn Macstar,Hàng & Dịch vụ Công nghiệp
+LSS,HSX,Công ty Cổ phần Mía đường Lam Sơn,Thực phẩm và đồ uống
+LPB,HSX,Ngân hàng Thương mại Cổ phần Lộc Phát Việt Nam,Ngân hàng
+LM8,HSX,Công ty Cổ phần Lilama 18,Xây dựng và Vật liệu
+LIX,HSX,Công ty Cổ phần Bột Giặt LiX,Hàng cá nhân & Gia dụng
+LIG,HNX,Công ty Cổ phần Licogi 13,Xây dựng và Vật liệu
+LHG,HSX,Công ty Cổ phần Long Hậu,Bất động sản
+LHC,HNX,Công ty Cổ phần Đầu tư và Xây dựng Thủy lợi Lâm Đồng,Xây dựng và Vật liệu
+LGL,HSX,Công ty Cổ phần Đầu tư và Phát triển Đô thị Long Giang,Bất động sản
+LGC,HSX,Công ty Cổ phần Đầu tư Cầu đường CII,Xây dựng và Vật liệu
+LDP,HNX,Công ty Cổ phần Dược Lâm Đồng - Ladophar,Y tế
+LDG,HSX,Công ty Cổ phần Đầu tư LDG,Bất động sản
+LCG,HSX,Công ty Cổ phần Lizen,Xây dựng và Vật liệu
+LCD,HNX,Công ty Cổ phần Lắp máy - Thí nghiệm cơ điện,Xây dựng và Vật liệu
+LBM,HSX,Công ty Cổ phần Khoáng sản và Vật liệu xây dựng Lâm Đồng,Xây dựng và Vật liệu
+LBE,HNX,Công ty Cổ phần Thương mại và Dịch vụ LVA,Truyền thông
+LAS,HNX,Công ty Cổ phần Supe Phốt phát và Hóa chất Lâm Thao,Hóa chất
+LAF,HSX,Công ty Cổ phần Chế biến Hàng Xuất khẩu Long An,Thực phẩm và đồ uống
+L40,HNX,Công ty Cổ phần Đầu tư và Xây dựng 40,Xây dựng và Vật liệu
+L18,HNX,Công ty Cổ phần Đầu tư và Xây dựng số 18,Xây dựng và Vật liệu
+L14,HNX,Công ty Cổ phần Licogi 14,Xây dựng và Vật liệu
+L10,HSX,Công ty Cổ phần Lilama 10,Hàng & Dịch vụ Công nghiệp
+KTS,HNX,Công ty Cổ phần Đường Kon Tum,Thực phẩm và đồ uống
+KSV,HNX,Tổng Công ty Khoáng sản TKV - Công ty Cổ phần,Tài nguyên Cơ bản
+KST,HNX,Công ty Cổ phần KASATI,Công nghệ Thông tin
+KSF,HNX,Công ty Cổ phần Tập đoàn Sunshine,Bất động sản
+KSD,HNX,Công ty Cổ phần Đầu tư DNA,Hàng cá nhân & Gia dụng
+KSB,HSX,Công ty Cổ phần Khoáng sản và Xây dựng Bình Dương,Tài nguyên Cơ bản
+KOS,HSX,Công ty Cổ phần KOSY,Bất động sản
+KMT,HNX,Công ty Cổ phần Kim khí Miền Trung,Tài nguyên Cơ bản
+KMR,HSX,Công ty Cổ phần Mirae,Hàng cá nhân & Gia dụng
+KKC,HNX,Công ty Cổ phần Tập đoàn Thành Thái,Tài nguyên Cơ bản
+KHS,HNX,Công ty Cổ phần Kiên Hùng,Thực phẩm và đồ uống
+KHP,HSX,Công ty Cổ phần Điện lực Khánh Hòa,"Điện, nước & xăng dầu khí đốt"
+KHG,HSX,Công ty Cổ phần Tập đoàn Khải Hoàn Land,Bất động sản
+KDM,HNX,Công ty Cổ phần Tập đoàn GCL,Xây dựng và Vật liệu
+KDH,HSX,Công ty Cổ phần Đầu tư và Kinh doanh nhà Khang Điền,Bất động sản
+KDC,HSX,Công ty Cổ phần Tập đoàn KIDO,Thực phẩm và đồ uống
+KBC,HSX,Tổng Công ty Phát triển Đô thị Kinh Bắc,Bất động sản
+JVC,HSX,Công ty Cổ phần Đầu tư và Phát triển Y tế Việt Nhật,Y tế
+IVS,HNX,Công ty Cổ phần Chứng khoán Guotai Junan (Việt Nam),Dịch vụ tài chính
+ITQ,HNX,Công ty Cổ phần Tập đoàn Thiên Quang,Tài nguyên Cơ bản
+ITD,HSX,Công ty Cổ phần Công nghệ Tiên Phong,Công nghệ Thông tin
+ITC,HSX,Công ty Cổ phần Đầu tư - Kinh doanh nhà,Bất động sản
+IPA,HNX,Công ty Cổ phần Tập đoàn Đầu tư I.P.A,Hàng & Dịch vụ Công nghiệp
+INN,HNX,Công ty Cổ phần Bao bì và In Nông nghiệp,Hàng & Dịch vụ Công nghiệp
+INC,HNX,Công ty Cổ phần Tư vấn Đầu tư IDICO,Xây dựng và Vật liệu
+IMP,HSX,Công ty Cổ phần Dược phẩm IMEXPHARM,Y tế
+ILB,HSX,Công ty Cổ phần ICD Tân Cảng - Long Bình,Hàng & Dịch vụ Công nghiệp
+IJC,HSX,Công ty Cổ phần Phát triển Hạ tầng Kỹ thuật,Bất động sản
+IDV,HNX,Công ty Cổ phần Phát triển Hạ tầng Vĩnh Phúc,Bất động sản
+IDJ,HNX,Công ty Cổ phần Đầu tư IDJ Việt Nam,Bất động sản
+IDI,HSX,Công ty Cổ phần Đầu tư và Phát triển Đa Quốc Gia I.D.I,Thực phẩm và đồ uống
+IDC,HNX,Tổng Công ty IDICO - CTCP,Bất động sản
+ICT,HSX,Công ty Cổ phần Viễn thông - Tin học Bưu điện,Công nghệ Thông tin
+ICG,HNX,Công ty Cổ phần Xây dựng Sông Hồng,Xây dựng và Vật liệu
+HVX,HSX,Công ty Cổ phần Xi măng Vicem Hải Vân,Xây dựng và Vật liệu
+HVT,HNX,Công ty Cổ phần Hóa chất Việt Trì,Hóa chất
+HVN,HSX,Tổng Công ty Hàng không Việt Nam - CTCP,Du lịch và Giải trí
+HVH,HSX,Công ty Cổ phần Đầu tư và Công nghệ HVC,Xây dựng và Vật liệu
+HUT,HNX,Công ty Cổ phần Tasco,Ô tô và phụ tùng
+HUB,HSX,Công ty Cổ phần Xây lắp Thừa Thiên Huế,Xây dựng và Vật liệu
+HU1,HSX,Công ty Cổ phần Đầu tư và Xây dựng HUD1,Xây dựng và Vật liệu
+HTV,HSX,Công ty Cổ phần Logistics Vicem,Hàng & Dịch vụ Công nghiệp
+HTN,HSX,Công ty Cổ phần Hưng Thịnh Incons,Bất động sản
+HTL,HSX,Công ty Cổ phần Kỹ thuật và Ô tô Trường Long,Ô tô và phụ tùng
+HTI,HSX,Công ty Cổ phần Đầu tư Phát triển Hạ tầng IDICO,Xây dựng và Vật liệu
+HTG,HSX,Tổng Công ty Cổ phần Dệt may Hòa Thọ,Hàng cá nhân & Gia dụng
+HTC,HNX,Công ty Cổ phần Thương mại Hóc Môn,"Điện, nước & xăng dầu khí đốt"
+HT1,HSX,Công ty Cổ phần Xi măng VICEM Hà Tiên,Xây dựng và Vật liệu
+HSL,HSX,Công ty Cổ phần Đầu tư Phát triển Thực phẩm Hồng Hà,Thực phẩm và đồ uống
+HSG,HSX,Công ty Cổ phần Tập đoàn Hoa Sen,Tài nguyên Cơ bản
+HRC,HSX,Công ty Cổ phần Cao su Hòa Bình,Hóa chất
+HQC,HSX,Công ty Cổ phần Tư vấn - Thương mại - Dịch vụ Địa ốc Hoàng Quân,Bất động sản
+HPX,HSX,Công ty Cổ phần Đầu tư Hải Phát,Bất động sản
+HPG,HSX,Công ty Cổ phần Tập đoàn Hòa Phát,Tài nguyên Cơ bản
+HOM,HNX,Công ty Cổ phần Xi măng VICEM Hoàng Mai,Xây dựng và Vật liệu
+HNA,HSX,Công ty Cổ phần Thủy điện Hủa Na,"Điện, nước & xăng dầu khí đốt"
+HMR,HNX,Công ty cổ phần Đá Hoàng Mai,Xây dựng và Vật liệu
+HMH,HNX,Công ty Cổ phần Hải Minh,Hàng & Dịch vụ Công nghiệp
+HMC,HSX,Công ty Cổ phần Kim khí Thành phố Hồ Chí Minh - VNSTEEL,Tài nguyên Cơ bản
+HLD,HNX,Công ty Cổ phần Đầu tư và Phát triển Bất động sản HUDLAND,Bất động sản
+HLC,HNX,Công ty Cổ phần Than Hà Lầm - Vinacomin,Tài nguyên Cơ bản
+HKT,HNX,Công ty Cổ phần Đầu tư QP Xanh,Thực phẩm và đồ uống
+HJS,HNX,Công ty Cổ phần Thủy điện Nậm Mu,"Điện, nước & xăng dầu khí đốt"
+HII,HSX,Công ty Cổ phần An Tiến Industries,Hóa chất
+HID,HSX,Công ty Cổ phần Halcom Vietnam,Xây dựng và Vật liệu
+HHV,HSX,Công ty Cổ phần Đầu tư Hạ tầng Giao thông Đèo Cả,Xây dựng và Vật liệu
+HHS,HSX,Công ty Cổ phần Đầu tư Dịch vụ Hoàng Huy,Ô tô và phụ tùng
+HHP,HSX,Công ty Cổ phần HHP Global,Tài nguyên Cơ bản
+HHC,HNX,Công ty Cổ phần Bánh kẹo Hải Hà,Thực phẩm và đồ uống
+HGM,HNX,Công ty Cổ phần Cơ khí và Khoáng sản Hà Giang,Tài nguyên Cơ bản
+HEV,HNX,Công ty Cổ phần Sách Đại học - Dạy nghề,Truyền thông
+HDG,HSX,Công ty Cổ phần Tập đoàn Hà Đô,Bất động sản
+HDC,HSX,Công ty Cổ phần Phát triển Nhà Bà Rịa Vũng Tàu,Bất động sản
+HDB,HSX,Ngân hàng Thương mại Cổ phần Phát Triển Thành phố Hồ Chí Minh,Ngân hàng
+HDA,HNX,Công ty Cổ phần Hãng sơn Đông Á,Xây dựng và Vật liệu
+HCT,HNX,Công ty Cổ phần Thương mại - Dịch vụ - Vận tải Xi măng Hải Phòng,Hàng & Dịch vụ Công nghiệp
+HCM,HSX,Công ty Cổ phần Chứng khoán Thành phố Hồ Chí Minh,Dịch vụ tài chính
+HCD,HSX,Công ty Cổ phần Đầu tư Sản xuất và Thương mại HCD,Hóa chất
+HCC,HNX,Công ty Cổ phần Bê tông Hòa Cầm - Intimex,Xây dựng và Vật liệu
+HBS,HNX,Công ty Cổ phần Chứng khoán Hòa Bình,Dịch vụ tài chính
+HAX,HSX,Công ty Cổ phần Dịch vụ Ô tô Hàng Xanh,Ô tô và phụ tùng
+HAT,HNX,Công ty Cổ phần Thương mại Bia Hà Nội,Thực phẩm và đồ uống
+HAS,HSX,Công ty Cổ phần Hacisco,Xây dựng và Vật liệu
+HAR,HSX,Công ty Cổ phần Đầu tư Thương mại Bất động sản An Dương Thảo Điền,Bất động sản
+HAP,HSX,Công ty Cổ phần Tập Đoàn Hapaco,Tài nguyên Cơ bản
+HAH,HSX,Công ty Cổ phần Vận tải và Xếp dỡ Hải An,Hàng & Dịch vụ Công nghiệp
+HAG,HSX,Công ty Cổ phần Hoàng Anh Gia Lai,Thực phẩm và đồ uống
+HAD,HNX,Công ty Cổ phần Bia Hà Nội - Hải Dương,Thực phẩm và đồ uống
+GVR,HSX,Tập đoàn Công nghiệp Cao su Việt Nam - Công ty Cổ phần,Hóa chất
+GTA,HSX,Công ty Cổ phần Chế biến Gỗ Thuận An,Tài nguyên Cơ bản
+GSP,HSX,Công ty Cổ phần Vận tải Sản phẩm Khí Quốc tế,Hàng & Dịch vụ Công nghiệp
+GMX,HNX,Công ty Cổ phần Gạch ngói Gốm xây dựng Mỹ Xuân,Xây dựng và Vật liệu
+GMH,HSX,Công ty Cổ phần Minh Hưng Quảng Trị,Xây dựng và Vật liệu
+GMD,HSX,Công ty Cổ phần Gemadept,Hàng & Dịch vụ Công nghiệp
+GMA,HNX,Công ty Cổ phần G-Automobile,Ô tô và phụ tùng
+GLT,HNX,Công ty Cổ phần Kỹ thuật điện Toàn Cầu,Hàng cá nhân & Gia dụng
+GKM,HNX,Công ty Cổ phần GKM Holdings,Xây dựng và Vật liệu
+GIL,HSX,Công ty Cổ phần Sản xuất Kinh doanh Xuất nhập khẩu Bình Thạnh,Hàng cá nhân & Gia dụng
+GIC,HNX,Công ty Cổ phần VSC Green Logistics,Hàng & Dịch vụ Công nghiệp
+GEX,HSX,Công ty Cổ phần Tập đoàn Gelex,Hàng & Dịch vụ Công nghiệp
+GEG,HSX,Công ty Cổ phần Điện Gia Lai,"Điện, nước & xăng dầu khí đốt"
+GEE,HSX,Công ty Cổ phần Điện lực Gelex,Hàng & Dịch vụ Công nghiệp
+GDW,HNX,Công ty Cổ phần Cấp nước Gia Định,"Điện, nước & xăng dầu khí đốt"
+GDT,HSX,Công ty Cổ phần Chế biến Gỗ Đức Thành,Hàng cá nhân & Gia dụng
+GAS,HSX,Tổng Công ty Khí Việt Nam - Công ty Cổ phần,"Điện, nước & xăng dầu khí đốt"
+FTS,HSX,Công ty Cổ phần Chứng khoán FPT,Dịch vụ tài chính
+FRT,HSX,Công ty Cổ phần Bán lẻ Kỹ thuật số FPT,Bán lẻ
+FPT,HSX,Công ty Cổ phần FPT,Công nghệ Thông tin
+FMC,HSX,Công ty Cổ phần Thực phẩm Sao Ta,Thực phẩm và đồ uống
+FIT,HSX,Công ty Cổ phần Tập đoàn F.I.T,Y tế
+FIR,HSX,Công ty Cổ phần Địa ốc First Real,Bất động sản
+FID,HNX,Công ty Cổ phần Đầu tư và Phát triển Doanh nghiệp Việt Nam,Xây dựng và Vật liệu
+FDC,HSX,Công ty Cổ phần Ngoại thương và Phát triển Đầu tư Thành phố Hồ Chí Minh,Bất động sản
+FCN,HSX,Công ty Cổ phần FECON,Xây dựng và Vật liệu
+FCM,HSX,Công ty Cổ phần Bê tông Phan Vũ Hà Nam,Xây dựng và Vật liệu
+EVS,HNX,Công ty Cổ phần Chứng khoán EVS,Dịch vụ tài chính
+EVG,HSX,Công ty Cổ phần Tập đoàn Everland,Xây dựng và Vật liệu
+EVF,HSX,Công ty Tài chính Cổ phần Điện Lực,Dịch vụ tài chính
+EVE,HSX,Công ty Cổ phần Everpia,Hàng cá nhân & Gia dụng
+ELC,HSX,Công ty Cổ phần Công nghệ - Viễn thông ELCOM,Công nghệ Thông tin
+EID,HNX,Công ty Cổ phần Đầu tư và Phát triển Giáo dục Hà Nội,Truyền thông
+EIB,HSX,Ngân hàng Thương mại Cổ phần Xuất nhập khẩu Việt Nam,Ngân hàng
+ECI,HNX,Công ty Cổ phần Tập đoàn ECI,Truyền thông
+EBS,HNX,Công ty Cổ phần Sách Giáo dục tại Thành phố Hà Nội,Truyền thông
+DXV,HSX,Công ty Cổ phần VICEM Vật liệu Xây dựng Đà Nẵng,Xây dựng và Vật liệu
+DXS,HSX,Công ty Cổ phần Dịch vụ Bất động sản Đất Xanh,Bất động sản
+DXP,HNX,Công ty Cổ phần Cảng Đoạn Xá,Hàng & Dịch vụ Công nghiệp
+DXG,HSX,Công ty Cổ phần Tập đoàn Đất Xanh,Bất động sản
+DVP,HSX,Công ty Cổ phần Đầu tư và Phát triển Cảng Đình Vũ,Hàng & Dịch vụ Công nghiệp
+DVM,HNX,Công ty Cổ phần Dược liệu Việt Nam,Y tế
+DTT,HSX,Công ty Cổ phần Kỹ nghệ Đô Thành,Hóa chất
+DTL,HSX,Công ty Cổ phần Đại Thiên Lộc,Tài nguyên Cơ bản
+DTK,HNX,Tổng Công ty Điện lực TKV - Công ty Cổ phần,"Điện, nước & xăng dầu khí đốt"
+DTG,HNX,Công ty Cổ phần Dược phẩm Tipharco,Y tế
+DTD,HNX,Công ty Cổ phần Đầu tư Phát triển Thành Đạt,Bất động sản
+DTA,HSX,Công ty Cổ phần Đệ Tam,Bất động sản
+DST,HNX,Công ty Cổ phần Đầu tư Sao Thăng Long,Truyền thông
+DSN,HSX,Công ty Cổ phần Công viên nước Đầm Sen,Du lịch và Giải trí
+DSE,HSX,Công ty Cổ phần Chứng khoán DNSE,Dịch vụ tài chính
+DSC,HSX,Công ty Cổ phần Chứng khoán DSC,Dịch vụ tài chính
+DS3,HNX,Công ty Cổ phần DS3,Hàng & Dịch vụ Công nghiệp
+DRL,HSX,Công ty Cổ phần Thủy điện - Điện lực 3,"Điện, nước & xăng dầu khí đốt"
+DRH,HSX,Công ty Cổ phần DRH Holdings,Bất động sản
+DRC,HSX,Công ty Cổ phần Cao su Đà Nẵng,Ô tô và phụ tùng
+DQC,HSX,Công ty Cổ phần Tập đoàn Điện Quang,Hàng cá nhân & Gia dụng
+DPR,HSX,Công ty Cổ phần Cao su Đồng Phú,Hóa chất
+DPM,HSX,Tổng Công ty Phân bón và Hóa chất Dầu khí - Công ty Cổ phần,Hóa chất
+DPG,HSX,Công ty Cổ phần Tập đoàn Đạt Phương,Xây dựng và Vật liệu
+DP3,HNX,Công ty Cổ Phần Dược Phẩm Trung Ương 3,Y tế
+DNP,HNX,Công ty Cổ phần DNP Holding,Xây dựng và Vật liệu
+DNC,HNX,Công ty Cổ phần Điện nước Lắp máy Hải Phòng,"Điện, nước & xăng dầu khí đốt"
+DMC,HSX,Công ty Cổ phần Xuất nhập khẩu Y tế DOMESCO,Y tế
+DLG,HSX,Công ty Cổ phần Tập đoàn Đức Long Gia Lai,Xây dựng và Vật liệu
+DL1,HNX,Công ty Cổ phần Tập đoàn Alpha Seven,Hàng & Dịch vụ Công nghiệp
+DIH,HNX,Công ty Cổ phần Đầu tư Phát triển Xây dựng - Hội An,Xây dựng và Vật liệu
+DIG,HSX,Tổng Công ty Cổ phần Đầu tư Phát triển Xây dựng,Bất động sản
+DHT,HNX,Công ty Cổ phần Dược phẩm Hà Tây,Bán lẻ
+DHP,HNX,Công ty Cổ phần Điện cơ Hải Phòng,Hàng & Dịch vụ Công nghiệp
+DHM,HSX,Công ty Cổ phần Thương mại & Khai thác Khoáng sản Dương Hiếu,Tài nguyên Cơ bản
+DHG,HSX,Công ty Cổ phần Dược Hậu Giang,Y tế
+DHC,HSX,Công ty Cổ phần Đông Hải Bến Tre,Tài nguyên Cơ bản
+DHA,HSX,Công ty Cổ phần Hóa An,Xây dựng và Vật liệu
+DGW,HSX,Công ty Cổ phần Thế Giới Số,Bán lẻ
+DGC,HSX,Công ty Cổ phần Tập đoàn Hóa chất Đức Giang,Hóa chất
+DDG,HNX,Công ty Cổ phần Đầu tư Công nghiệp Xuất nhập khẩu Đông Dương,"Điện, nước & xăng dầu khí đốt"
+DCM,HSX,Công ty Cổ phần Phân bón Dầu Khí Cà Mau,Hóa chất
+DCL,HSX,Công ty Cổ phần Dược phẩm Cửu Long,Y tế
+DC4,HSX,Công ty Cổ phần Dicera Holdings,Xây dựng và Vật liệu
+DC2,HNX,Công ty Cổ phần Đầu tư Phát triển - Xây dựng (DIC) số 2,Xây dựng và Vật liệu
+DBT,HSX,Công ty Cổ phần Dược phẩm Bến Tre,Y tế
+DBD,HSX,Công ty Cổ phần Dược - Trang thiết bị y tế Bình Định (BIDIPHAR),Y tế
+DBC,HSX,Công ty Cổ phần Tập đoàn Dabaco Việt Nam,Thực phẩm và đồ uống
+DAT,HSX,Công ty Cổ phần Đầu tư Du lịch và Phát triển Thủy sản,Thực phẩm và đồ uống
+DAH,HSX,Công ty Cổ phần Tập đoàn Khách sạn Đông Á,Du lịch và Giải trí
+DAE,HNX,Công ty Cổ phần Sách Giáo dục tại Thành phố Đà Nẵng,Truyền thông
+DAD,HNX,Công ty Cổ phần Đầu tư và Phát triển Giáo dục Đà Nẵng,Truyền thông
+D2D,HSX,Công ty Cổ phần Phát triển Đô thị Công nghiệp số 2,Bất động sản
+D11,HNX,Công ty Cổ phần Địa ốc 11,Bất động sản
+CX8,HNX,Công ty Cổ phần Đầu tư và Xây lắp Constrexim số 8,Xây dựng và Vật liệu
+CVT,HSX,Công ty Cổ phần CMC,Xây dựng và Vật liệu
+CTT,HNX,Công ty Cổ phần Chế tạo máy - Vinacomin,Hàng & Dịch vụ Công nghiệp
+CTS,HSX,Công ty Cổ phần Chứng khoán Ngân hàng Công thương Việt Nam,Dịch vụ tài chính
+CTR,HSX,Tổng Công ty Cổ phần Công trình Viettel,Xây dựng và Vật liệu
+CTP,HNX,Công ty Cổ phần Hoà Bình Takara,Thực phẩm và đồ uống
+CTI,HSX,Công ty Cổ phần Đầu tư Phát triển Cường Thuận IDICO,Xây dựng và Vật liệu
+CTG,HSX,Ngân hàng Thương mại Cổ phần Công thương Việt Nam,Ngân hàng
+CTF,HSX,Công ty Cổ phần City Auto,Ô tô và phụ tùng
+CTD,HSX,Công ty Cổ phần Xây dựng Coteccons,Xây dựng và Vật liệu
+CTB,HNX,Công ty Cổ phần Chế tạo Bơm Hải Dương,Hàng & Dịch vụ Công nghiệp
+CSV,HSX,Công ty Cổ phần Hóa chất Cơ bản miền Nam,Hóa chất
+CST,HNX,Công ty Cổ phần Than Cao Sơn - TKV,Tài nguyên Cơ bản
+CSM,HSX,Công ty Cổ phần Công nghiệp Cao su Miền Nam,Ô tô và phụ tùng
+CSC,HNX,Công ty Cổ phần Tập đoàn COTANA,Xây dựng và Vật liệu
+CRE,HSX,Công ty Cổ phần Bất động sản Thế Kỷ,Bất động sản
+CRC,HSX,Công ty Cổ phần Create Capital Việt Nam,Xây dựng và Vật liệu
+CPC,HNX,Công ty Cổ phần Thuốc sát trùng Cần Thơ,Hóa chất
+COM,HSX,Công ty Cổ phần Vật tư Xăng dầu,Bán lẻ
+CNG,HSX,Công ty Cổ phần CNG Việt Nam,"Điện, nước & xăng dầu khí đốt"
+CMX,HSX,Công ty Cổ phần CAMIMEX Group,Thực phẩm và đồ uống
+CMV,HSX,Công ty Cổ phần Thương nghiệp Cà Mau,Bán lẻ
+CMS,HNX,Công ty Cổ phần Tập đoàn CMH Việt Nam,Xây dựng và Vật liệu
+CMG,HSX,Công ty Cổ phần Tập đoàn Công nghệ CMC,Công nghệ Thông tin
+CMC,HNX,Công ty Cổ phần Đầu tư CMC,Hàng & Dịch vụ Công nghiệp
+CLW,HSX,Công ty Cổ phần Cấp nước Chợ Lớn,"Điện, nước & xăng dầu khí đốt"
+CLM,HNX,Công ty Cổ phần Xuất nhập khẩu Than - Vinacomin,Tài nguyên Cơ bản
+CLL,HSX,Công ty Cổ phần Cảng Cát Lái,Hàng & Dịch vụ Công nghiệp
+CLH,HNX,Công ty Cổ phần Xi măng La Hiên VVMI,Xây dựng và Vật liệu
+CLC,HSX,Công ty Cổ phần Cát Lợi,Hàng cá nhân & Gia dụng
+CKV,HNX,Công ty Cổ phần CokyVina,Công nghệ Thông tin
+CKG,HSX,Công ty Cổ phần Tập đoàn CIC,Bất động sản
+CJC,HNX,Công ty Cổ phần Cơ điện Miền Trung,Hàng & Dịch vụ Công nghiệp
+CII,HSX,Công ty Cổ phần Đầu tư Hạ tầng Kỹ thuật Thành phố Hồ Chí Minh,Xây dựng và Vật liệu
+CIG,HSX,Công ty Cổ phần COMA 18,Xây dựng và Vật liệu
+CIA,HNX,Công ty Cổ Phần Dịch Vụ Sân Bay Quốc Tế Cam Ranh,Hàng & Dịch vụ Công nghiệp
+CHP,HSX,Công ty Cổ phần Thủy điện Miền Trung,"Điện, nước & xăng dầu khí đốt"
+CET,HNX,Công ty Cổ phần HTC Holding,Hàng cá nhân & Gia dụng
+CEO,HNX,Công ty Cổ phần Tập đoàn C.E.O,Bất động sản
+CDN,HNX,Công ty Cổ phần Cảng Đà Nẵng,Hàng & Dịch vụ Công nghiệp
+CDC,HSX,Công ty Cổ phần Chương Dương,Xây dựng và Vật liệu
+CCR,HNX,Công ty Cổ phần Cảng Cam Ranh,Hàng & Dịch vụ Công nghiệp
+CCL,HSX,Công ty Cổ phần Đầu tư và Phát triển Đô thị Dầu khí Cửu Long,Bất động sản
+CCI,HSX,Công ty Cổ phần Đầu tư Phát triển Công nghiệp Thương mại Củ Chi,"Điện, nước & xăng dầu khí đốt"
+CCC,HSX,Công ty Cổ Phần Xây Dựng CDC,Xây dựng và Vật liệu
+CAR,HNX,Công ty cổ phần Tập đoàn Giáo dục Trí Việt,Hàng & Dịch vụ Công nghiệp
+CAP,HNX,Công ty Cổ phần Lâm Nông sản Thực phẩm Yên Bái,Tài nguyên Cơ bản
+CAN,HNX,Công ty Cổ phần Đồ hộp Hạ Long,Thực phẩm và đồ uống
+CAG,HNX,Công ty Cổ phần Cảng An Giang,Hàng & Dịch vụ Công nghiệp
+C69,HNX,Công ty Cổ phần Xây dựng 1369,Xây dựng và Vật liệu
+C47,HSX,Công ty Cổ phần Xây dựng 47,Xây dựng và Vật liệu
+C32,HSX,Công ty Cổ phần Đầu tư và Xây dựng 3-2,Xây dựng và Vật liệu
+BXH,HNX,Công ty Cổ phần VICEM Bao bì Hải Phòng,Hàng & Dịch vụ Công nghiệp
+BWE,HSX,Công ty Cổ phần - Tổng công ty Nước - Môi trường Bình Dương,"Điện, nước & xăng dầu khí đốt"
+BVS,HNX,Công ty Cổ phần Chứng khoán Bảo Việt,Dịch vụ tài chính
+BVH,HSX,Tập đoàn Bảo Việt,Bảo hiểm
+BTW,HNX,Công ty Cổ phần Cấp nước Bến Thành,"Điện, nước & xăng dầu khí đốt"
+BTT,HSX,Công ty Cổ phần Thương mại - Dịch vụ Bến Thành,Bán lẻ
+BTS,HNX,Công ty Cổ phần Xi măng VICEM Bút Sơn,Xây dựng và Vật liệu
+BTP,HSX,Công ty Cổ phần Nhiệt điện Bà Rịa,"Điện, nước & xăng dầu khí đốt"
+BST,HNX,Công ty Cổ phần Sách và Thiết bị Bình Thuận,Truyền thông
+BSR,HSX,Công ty Cổ phần Lọc Hóa dầu Bình Sơn,Dầu khí
+BSI,HSX,Công ty Cổ phần Chứng khoán BIDV,Dịch vụ tài chính
+BSC,HNX,Công ty Cổ phần Dịch vụ Bến Thành,Bất động sản
+BRC,HSX,Công ty Cổ phần Cao su Bến Thành,Hóa chất
+BPC,HNX,Công ty Cổ phần Vicem Bao bì Bỉm Sơn,Hàng & Dịch vụ Công nghiệp
+BNA,HNX,Công ty Cổ phần Tập đoàn Đầu tư Bảo Ngọc,Thực phẩm và đồ uống
+BMP,HSX,Công ty Cổ phần Nhựa Bình Minh,Xây dựng và Vật liệu
+BMI,HSX,Tổng Công ty Cổ phần Bảo Minh,Bảo hiểm
+BMC,HSX,Công ty Cổ phần Khoáng sản Bình Định,Tài nguyên Cơ bản
+BKG,HSX,Công ty Cổ phần Đầu tư BKG Việt Nam,Hàng cá nhân & Gia dụng
+BKC,HNX,Công ty Cổ phần Khoáng sản Bắc Kạn,Tài nguyên Cơ bản
+BID,HSX,Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam,Ngân hàng
+BIC,HSX,Tổng Công ty Cổ phần Bảo hiểm Ngân hàng Đầu tư và Phát triển Việt Nam,Bảo hiểm
+BHN,HSX,Tổng Công ty Cổ phần Bia - Rượu - Nước giải khát Hà Nội,Thực phẩm và đồ uống
+BFC,HSX,Công ty Cổ phần Phân bón Bình Điền,Hóa chất
+BED,HNX,Công ty Cổ phần Sách và Thiết bị trường học Đà Nẵng,Truyền thông
+BCM,HSX,Tổng Công ty Đầu tư và Phát triển Công nghiệp - CTCP,Bất động sản
+BCG,HSX,Công ty Cổ phần Tập đoàn Bamboo Capital,Dịch vụ tài chính
+BCF,HNX,Công ty Cổ phần Thực phẩm Bích Chi,Thực phẩm và đồ uống
+BCE,HSX,Công ty Cổ phần Xây dựng và Giao thông Bình Dương,Xây dựng và Vật liệu
+BCC,HNX,Công ty Cổ phần Xi măng Bỉm Sơn,Xây dựng và Vật liệu
+BBS,HNX,Công ty Cổ phần VICEM Bao bì Bút Sơn,Hàng & Dịch vụ Công nghiệp
+BBC,HSX,Công ty Cổ phần Bibica,Thực phẩm và đồ uống
+BAX,HNX,Công ty Cổ phần Thống Nhất,Xây dựng và Vật liệu
+BAF,HSX,Công ty Cổ phần Nông nghiệp BAF Việt Nam,Thực phẩm và đồ uống
+BAB,HNX,Ngân hàng Thương mại Cổ phần Bắc Á,Ngân hàng
+ATS,HNX,Công ty Cổ phần Tập đoàn Đầu tư ATS,Du lịch và Giải trí
+AST,HSX,Công ty Cổ phần Dịch vụ Hàng không Taseco,Bán lẻ
+ASP,HSX,Công ty Cổ phần Tập đoàn Dầu khí An Pha,"Điện, nước & xăng dầu khí đốt"
+ASM,HSX,Công ty Cổ phần Tập đoàn Sao Mai,Thực phẩm và đồ uống
+ASG,HSX,Công ty Cổ phần Tập đoàn ASG,Hàng & Dịch vụ Công nghiệp
+ARM,HNX,Công ty Cổ phần Xuất nhập khẩu Hàng không,Hàng & Dịch vụ Công nghiệp
+APS,HNX,Công ty Cổ phần Chứng khoán Châu Á - Thái Bình Dương,Dịch vụ tài chính
+API,HNX,Công ty Cổ phần Đầu tư Châu Á - Thái Bình Dương,Bất động sản
+APH,HSX,Công ty Cổ phần Tập đoàn An Phát Holdings,Hàng & Dịch vụ Công nghiệp
+APG,HSX,Công ty Cổ phần Chứng khoán APG,Dịch vụ tài chính
+ANV,HSX,Công ty Cổ phần Nam Việt,Thực phẩm và đồ uống
+AMV,HNX,Công ty Cổ phần Sản xuất Kinh doanh Dược và Trang thiết bị Y tế Việt Mỹ,Y tế
+AME,HNX,Công ty cổ phần Alphanam E&C,Hàng & Dịch vụ Công nghiệp
+AMC,HNX,Công ty Cổ phần Khoáng sản Á Châu,Tài nguyên Cơ bản
+ALT,HNX,Công ty Cổ phần Văn hóa Tân Bình,Truyền thông
+AGR,HSX,Công ty Cổ phần Chứng khoán AGRIBANK,Dịch vụ tài chính
+AGG,HSX,Công ty Cổ phần Đầu tư và Phát triển Bất động sản An Gia,Bất động sản
+ADS,HSX,Công ty Cổ phần DAMSAN,Hàng cá nhân & Gia dụng
+ADP,HSX,Công ty Cổ phần Sơn Á Đông,Xây dựng và Vật liệu
+ADG,HSX,Công ty Cổ phần Clever Group,Truyền thông
+ADC,HNX,Công ty Cổ phần Mĩ thuật và Truyền thông,Truyền thông
+ACL,HSX,Công ty Cổ phần Xuất nhập khẩu Thủy sản Cửu Long An Giang,Thực phẩm và đồ uống
+ACG,HSX,Công ty Cổ phần Gỗ An Cường,Tài nguyên Cơ bản
+ACC,HSX,Công ty Cổ phần Đầu tư và Xây dựng Bình Dương ACC,Xây dựng và Vật liệu
+ACB,HSX,Ngân hàng Thương mại Cổ phần Á Châu,Ngân hàng
+ABT,HSX,Công ty Cổ phần Xuất nhập khẩu Thủy sản Bến Tre,Thực phẩm và đồ uống
+ABS,HSX,Công ty Cổ phần Dịch vụ Nông nghiệp Bình Thuận,Hóa chất
+ABR,HSX,Công ty Cổ phần Đầu tư Nhãn Hiệu Việt,Hàng & Dịch vụ Công nghiệp
+AAV,HNX,Công ty Cổ phần AAV Group,Bất động sản
+AAT,HSX,Công ty Cổ phần Tập đoàn Tiên Sơn Thanh Hóa,Hàng cá nhân & Gia dụng
+AAM,HSX,Công ty Cổ Phần Thủy Sản MeKong,Thực phẩm và đồ uống
+AAA,HSX,Công ty Cổ phần Nhựa An Phát Xanh,Hóa chất

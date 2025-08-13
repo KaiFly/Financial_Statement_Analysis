@@ -1,0 +1,10 @@
+# .streamlit/config.toml
+[theme]
+base="dark"
+primaryColor="#FF4B4B" # Red primary color
+backgroundColor="#1E1E1E" # Dark background
+secondaryBackgroundColor="#2D2D2D" # Slightly lighter dark secondary background
+textColor="#FFFFFF" # White text
+font="sans serif"
+[client]
+showSidebarNavigation=false
